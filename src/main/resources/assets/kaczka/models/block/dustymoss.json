@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/dusty_grass_block_top",
+    "up": "kaczka:block/dusty_grass_block_top",
+    "north": "kaczka:block/dusty_grass_block_top",
+    "east": "kaczka:block/dusty_grass_block_top",
+    "south": "kaczka:block/dusty_grass_block_top",
+    "west": "kaczka:block/dusty_grass_block_top",
+    "particle": "kaczka:block/dusty_grass_block_top"
+  },
+  "render_type": "solid"
+}

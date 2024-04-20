@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "kaczka:dustyplanks"
+    },
+    "b": {
+      "item": "kaczka:dust"
+    }
+  },
+  "result": {
+    "item": "kaczka:dustycraftingtable",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/saphhire_ore",
+    "up": "kaczka:block/saphhire_ore",
+    "north": "kaczka:block/saphhire_ore",
+    "east": "kaczka:block/saphhire_ore",
+    "south": "kaczka:block/saphhire_ore",
+    "west": "kaczka:block/saphhire_ore",
+    "particle": "kaczka:block/saphhire_ore"
+  },
+  "render_type": "solid"
+}

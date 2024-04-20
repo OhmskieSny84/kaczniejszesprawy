@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 9000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Netherdiamondore"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Netherdiamondore"
+    },
+    "name": "diamondnethersmelting",
+    "namespace": "mod"
+  }
+}

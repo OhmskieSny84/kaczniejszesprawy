@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/dusty_planks",
+    "up": "kaczka:block/dusty_planks",
+    "north": "kaczka:block/dusty_planks",
+    "east": "kaczka:block/dusty_planks",
+    "south": "kaczka:block/dusty_planks",
+    "west": "kaczka:block/dusty_planks",
+    "particle": "kaczka:block/dusty_planks"
+  },
+  "render_type": "solid"
+}

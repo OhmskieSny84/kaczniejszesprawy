@@ -1,0 +1,3747 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gildedclay",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gildedclay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/gildedclay.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/gildedclay_biome_modifier.json",
+          "src/main/resources/assets/kaczka/blockstates/gildedclay.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/gildedclay.json",
+          "src/main/java/net/mcreator/kaczka/block/GildedclayBlock.java",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/gildedclay.json",
+          "src/main/resources/assets/kaczka/models/block/gildedclay.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/gildedclay.json"
+        ]
+      }
+    },
+    {
+      "name": "Kaczka",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaczka",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Gildedclaypiece",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gildedclaypiece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/GildedclaypieceItem.java",
+          "src/main/resources/assets/kaczka/models/item/gildedclaypiece.json"
+        ]
+      }
+    },
+    {
+      "name": "Gildedclaydrops",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gildedclaydrops",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/GildedclaydropsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gildedclaysmelting",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gildedclaysmelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/gildedclaysmelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenbricks",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/GoldenbricksBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/goldenbricks.json",
+          "src/main/resources/assets/kaczka/models/item/goldenbricks.json",
+          "src/main/resources/assets/kaczka/blockstates/goldenbricks.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbricks.json"
+        ]
+      }
+    },
+    {
+      "name": "Guildedbricks",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guildedbricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/guildedbricks.json"
+        ]
+      }
+    },
+    {
+      "name": "Gildedclayblockcrafting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gildedclayblockcrafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/gildedclayblockcrafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherdiamondore",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherdiamondore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/configured_feature/netherdiamondore.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/netherdiamondore.json",
+          "src/main/resources/assets/kaczka/blockstates/netherdiamondore.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/netherdiamondore_biome_modifier.json",
+          "src/main/resources/assets/kaczka/models/item/netherdiamondore.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/netherdiamondore.json",
+          "src/main/java/net/mcreator/kaczka/block/NetherdiamondoreBlock.java",
+          "src/main/resources/assets/kaczka/models/block/netherdiamondore.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamondnethersmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondnethersmelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/diamondnethersmelting.json"
+        ]
+      }
+    },
+    {
+      "name": "FireworksProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireworks_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/FireworksProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fireworksrecipiititit",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireworksrecipiititit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/fireworksrecipiititit.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/RubyItem.java",
+          "src/main/resources/assets/kaczka/models/item/ruby.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyoreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/RubyoreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rubyore",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubyore.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/rubyore.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/rubyore_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/rubyore.json",
+          "src/main/resources/assets/kaczka/blockstates/rubyore.json",
+          "src/main/resources/assets/kaczka/models/item/rubyore.json",
+          "src/main/java/net/mcreator/kaczka/block/RubyoreBlock.java",
+          "src/main/resources/assets/kaczka/models/block/rubyore.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubycaveparticle",
+      "type": "particle",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubycaveparticle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/client/particle/RubycaveparticleParticle.java",
+          "src/main/resources/assets/kaczka/particles/rubycaveparticle.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubycave",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubycave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/biome/rubycave.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyprismarine",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/blockstates/rubyprismarine.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubyprismarine.json",
+          "src/main/resources/assets/kaczka/models/item/rubyprismarine.json",
+          "src/main/java/net/mcreator/kaczka/block/RubyprismarineBlock.java",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarine.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyprismarinecrafting",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarinecrafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyprismarinecrafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyblock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/blockstates/rubyblock.json",
+          "src/main/java/net/mcreator/kaczka/block/RubyblockBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubyblock.json",
+          "src/main/resources/assets/kaczka/models/block/rubyblock.json",
+          "src/main/resources/assets/kaczka/models/item/rubyblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyprismarinestairs",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarinestairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubyprismarinestairs.json",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarinestairs.json",
+          "src/main/resources/assets/kaczka/models/item/rubyprismarinestairs.json",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarinestairs_inner.json",
+          "src/main/resources/assets/kaczka/blockstates/rubyprismarinestairs.json",
+          "src/main/java/net/mcreator/kaczka/block/RubyprismarinestairsBlock.java",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarinestairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyprismarineslab",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarineslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/blockstates/rubyprismarineslab.json",
+          "src/main/resources/assets/kaczka/models/item/rubyprismarineslab.json",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarineslab_top.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubyprismarineslab.json",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarineslab.json",
+          "src/main/java/net/mcreator/kaczka/block/RubyprismarineslabBlock.java",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarineslab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenbrickstairs",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbrickstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/block/goldenbrickstairs_inner.json",
+          "src/main/resources/assets/kaczka/models/item/goldenbrickstairs.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbrickstairs.json",
+          "src/main/java/net/mcreator/kaczka/block/GoldenbrickstairsBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/goldenbrickstairs.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbrickstairs_outer.json",
+          "src/main/resources/assets/kaczka/blockstates/goldenbrickstairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenbrickslab",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbrickslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/goldenbrickslab.json",
+          "src/main/java/net/mcreator/kaczka/block/GoldenbrickslabBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/goldenbrickslab.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbrickslab_top.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/goldenbrickslab.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbrickslab.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbrickslab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyprismarineslabrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarineslabrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyprismarineslabrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyprismarineslabr2",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarineslabr_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyprismarineslabr_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyprismarineslabr3",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarineslabr_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyprismarineslabr_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyprismarinestairsrecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarinestairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyprismarinestairsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyprismarinestairsr2",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarinestairsr_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyprismarinestairsr_2.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyPrismarineslabstonecutting",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_prismarineslabstonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/ruby_prismarineslabstonecutting.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyprismarinestairsstonecutting",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarinestairsstonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyprismarinestairsstonecutting.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenbricksslabr1",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksslabr_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/goldenbricksslabr_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenbricksslabr2",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksslabr_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/goldenbricksslabr_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenbricksslabr3",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksslabr_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/goldenbricksslabr_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenbricksstairsr1",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksstairsr_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/goldenbricksstairsr_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenbricksstairsr2",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksstairsr_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/goldenbricksstairsr_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenbricksslabstonecutting",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksslabstonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/goldenbricksslabstonecutting.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenbricksstairsstonecutting",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksstairsstonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/goldenbricksstairsstonecutting.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubylantern",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubylantern",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/rubylantern.json",
+          "src/main/java/net/mcreator/kaczka/block/RubylanternBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/rubylantern.json",
+          "src/main/resources/assets/kaczka/models/block/rubylantern.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubylantern.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubylanterncraft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubylanterncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubylanterncraft.json"
+        ]
+      }
+    },
+    {
+      "name": "CesiumampuleProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cesiumampule_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/CesiumampuleProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyneckleBodyTickEvent",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyneckle_body_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/RubyneckleBodyTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rubyneckle",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyneckle",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/rubyneckle_chestplate.json",
+          "src/main/java/net/mcreator/kaczka/item/RubyneckleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rubyneckler1",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyneckler_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyneckler_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyflower",
+      "type": "plant",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyflower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/RubyflowerBlock.java",
+          "src/main/resources/assets/kaczka/models/item/rubyflower.json",
+          "src/main/resources/assets/kaczka/blockstates/rubyflower.json",
+          "src/main/resources/assets/kaczka/models/block/rubyflower.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/rubyflower.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/rubyflower_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/rubyflower.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubyflower.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyflowerR1",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyflower_r_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyflower_r_1.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyflowerR2",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyflower_r_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyflower_r_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubycrystal",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubycrystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/rubycrystal.json",
+          "src/main/java/net/mcreator/kaczka/block/RubycrystalBlock.java",
+          "src/main/resources/assets/kaczka/models/block/rubycrystal.json",
+          "src/main/resources/assets/kaczka/blockstates/rubycrystal.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubycrystal.json"
+        ]
+      }
+    },
+    {
+      "name": "Jadeitegravelore",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitegravelore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/JadeitegraveloreBlock.java",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/jadeitegravelore.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/jadeitegravelore_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/jadeitegravelore.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/jadeitegravelore.json",
+          "src/main/resources/assets/kaczka/models/item/jadeitegravelore.json",
+          "src/main/resources/assets/kaczka/blockstates/jadeitegravelore.json",
+          "src/main/resources/assets/kaczka/models/block/jadeitegravelore.json"
+        ]
+      }
+    },
+    {
+      "name": "Jadeiteblock",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeiteblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/block/jadeiteblock.json",
+          "src/main/java/net/mcreator/kaczka/block/JadeiteblockBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/jadeiteblock.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/jadeiteblock.json",
+          "src/main/resources/assets/kaczka/models/item/jadeiteblock.json"
+        ]
+      }
+    },
+    {
+      "name": "JadeitegraveloreUpdateTick",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitegravelore_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/JadeitegraveloreUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jadeiteparticle",
+      "type": "particle",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeiteparticle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/particles/jadeiteparticle.json",
+          "src/main/java/net/mcreator/kaczka/client/particle/JadeiteparticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "Deepstone",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/block/deepstone.json",
+          "src/main/resources/assets/kaczka/blockstates/deepstone.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/deepstone.json",
+          "src/main/java/net/mcreator/kaczka/block/DeepstoneBlock.java",
+          "src/main/resources/assets/kaczka/models/item/deepstone.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepstoneCrafting",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepstone_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/deepstone_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepShard",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/DeepShardItem.java",
+          "src/main/resources/assets/kaczka/models/item/deep_shard.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepIron",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/DeepIronItem.java",
+          "src/main/resources/assets/kaczka/models/item/deep_iron.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepIronCrafting",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/deep_iron_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepIronBlock",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/deep_iron_block.json",
+          "src/main/java/net/mcreator/kaczka/block/DeepIronBlockBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/deep_iron_block.json",
+          "src/main/resources/assets/kaczka/models/block/deep_iron_block.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/deep_iron_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepIronBladeLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_blade_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DeepIronBladeLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepIronBlade",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/deep_iron_blade.json",
+          "src/main/java/net/mcreator/kaczka/item/DeepIronBladeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepIronBladeGrind",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_blade_grind",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/deep_iron_blade_grind.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepIronBlockCrafting",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/deep_iron_block_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Dust",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/DustItem.java",
+          "src/main/resources/assets/kaczka/models/item/dust.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyobsidian",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyobsidian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/blockstates/dustyobsidian.json",
+          "src/main/resources/assets/kaczka/models/block/dustyobsidian.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyobsidian.json",
+          "src/main/resources/assets/kaczka/models/item/dustyobsidian.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyobsidianBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DustyobsidianR1",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyobsidian_r_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/dustyobsidian_r_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Depth",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/DepthItem.java",
+          "src/main/resources/assets/kaczka/models/item/depth.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfDepth",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_depth",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/loot_tables/blocks/block_of_depth.json",
+          "src/main/resources/assets/kaczka/models/block/block_of_depth.json",
+          "src/main/java/net/mcreator/kaczka/block/BlockOfDepthBlock.java",
+          "src/main/resources/assets/kaczka/models/item/block_of_depth.json",
+          "src/main/resources/assets/kaczka/blockstates/block_of_depth.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockDepthRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_depth_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/block_depth_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepShardBlock",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_shard_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DeepShardBlockBlock.java",
+          "src/main/resources/assets/kaczka/models/block/deep_shard_block.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/deep_shard_block.json",
+          "src/main/resources/assets/kaczka/models/item/deep_shard_block.json",
+          "src/main/resources/assets/kaczka/blockstates/deep_shard_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepShardBlockRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_shard_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/deep_shard_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepShardRecipeFBLOCK",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_shard_recipe_fblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/deep_shard_recipe_fblock.json"
+        ]
+      }
+    },
+    {
+      "name": "DepthRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/depth_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DepthRecipeFBLOCK",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_recipe_fblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/depth_recipe_fblock.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepIronRecipeFBLOCK",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_recipe_fblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/deep_iron_recipe_fblock.json"
+        ]
+      }
+    },
+    {
+      "name": "DepthExtractorInterface",
+      "type": "gui",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_extractor_interface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/client/gui/DepthExtractorInterfaceScreen.java",
+          "src/main/java/net/mcreator/kaczka/network/DepthExtractorInterfaceButtonMessage.java",
+          "src/main/java/net/mcreator/kaczka/world/inventory/DepthExtractorInterfaceMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "DepthExtractorExtract",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_extractor_extract",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DepthExtractorExtractProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DepthExtractorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_extractor_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DepthExtractorOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DepthExtractor",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_extractor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DepthExtractorBlock.java",
+          "src/main/resources/assets/kaczka/models/item/depth_extractor.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/depth_extractor.json",
+          "src/main/resources/assets/kaczka/blockstates/depth_extractor.json",
+          "src/main/resources/assets/kaczka/models/block/depth_extractor.json"
+        ]
+      }
+    },
+    {
+      "name": "DepthExtractorRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_extractor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/depth_extractor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustydirt",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustydirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustydirt.json",
+          "src/main/java/net/mcreator/kaczka/block/DustydirtBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustydirt.json",
+          "src/main/resources/assets/kaczka/blockstates/dustydirt.json",
+          "src/main/resources/assets/kaczka/models/item/dustydirt.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustygrass",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustygrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/dustygrass.json",
+          "src/main/resources/assets/kaczka/blockstates/dustygrass.json",
+          "src/main/java/net/mcreator/kaczka/block/DustygrassBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustygrass.json",
+          "src/main/resources/assets/kaczka/models/block/dustygrass.json"
+        ]
+      }
+    },
+    {
+      "name": "DustygrassBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustygrass_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustygrassBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToretzanOre",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toretzan_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/toretzan_ore.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/toretzan_ore_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/toretzan_ore.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/toretzan_ore.json",
+          "src/main/java/net/mcreator/kaczka/block/ToretzanOreBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/toretzan_ore.json",
+          "src/main/resources/assets/kaczka/blockstates/toretzan_ore.json",
+          "src/main/resources/assets/kaczka/models/block/toretzan_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Toretzan",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toretzan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/ToretzanItem.java",
+          "src/main/resources/assets/kaczka/models/item/toretzan.json"
+        ]
+      }
+    },
+    {
+      "name": "ForavaraOre",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foravara_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/blockstates/foravara_ore.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/foravara_ore.json",
+          "src/main/resources/assets/kaczka/models/item/foravara_ore.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/foravara_ore_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/foravara_ore.json",
+          "src/main/resources/assets/kaczka/models/block/foravara_ore.json",
+          "src/main/java/net/mcreator/kaczka/block/ForavaraOreBlock.java",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/foravara_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Foravara",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foravara",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/ForavaraItem.java",
+          "src/main/resources/assets/kaczka/models/item/foravara.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyplains",
+      "type": "biome",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyplains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/biome/dustyplains.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyplanks",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyplanks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/block/dustyplanks.json",
+          "src/main/resources/assets/kaczka/blockstates/dustyplanks.json",
+          "src/main/resources/assets/kaczka/models/item/dustyplanks.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyplanksBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyplanks.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustylog",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustylog",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustylog.json",
+          "src/main/java/net/mcreator/kaczka/block/DustylogBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustylog.json",
+          "src/main/resources/assets/kaczka/models/item/dustylog.json",
+          "src/main/resources/assets/kaczka/blockstates/dustylog.json"
+        ]
+      }
+    },
+    {
+      "name": "DustylogBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustylog_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustylogBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustyleaves",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyleaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DustyleavesBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/dustyleaves.json",
+          "src/main/resources/assets/kaczka/models/block/dustyleaves.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyleaves.json",
+          "src/main/resources/assets/kaczka/models/item/dustyleaves.json"
+        ]
+      }
+    },
+    {
+      "name": "DustyleavesBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyleaves_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustyleavesBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Dustydimension",
+      "type": "dimension",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustydimension",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DustydimensionPortalBlock.java",
+          "src/main/resources/data/kaczka/dimension_type/dustydimension.json",
+          "src/main/resources/assets/kaczka/models/block/dustydimension_portal_ew.json",
+          "src/main/java/net/mcreator/kaczka/item/DustydimensionItem.java",
+          "src/main/resources/assets/kaczka/models/item/dustydimension.json",
+          "src/main/resources/assets/kaczka/models/block/dustydimension_portal_ns.json",
+          "src/main/java/net/mcreator/kaczka/world/teleporter/DustydimensionPortalShape.java",
+          "src/main/resources/assets/kaczka/blockstates/dustydimension_portal.json",
+          "src/main/java/net/mcreator/kaczka/world/dimension/DustydimensionDimension.java",
+          "src/main/java/net/mcreator/kaczka/world/teleporter/DustydimensionTeleporter.java",
+          "src/main/resources/data/kaczka/dimension/dustydimension.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyhouseloot",
+      "type": "loottable",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyhouseloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyhouseloot.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustystairs",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustystairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DustystairsBlock.java",
+          "src/main/resources/assets/kaczka/models/item/dustystairs.json",
+          "src/main/resources/assets/kaczka/blockstates/dustystairs.json",
+          "src/main/resources/assets/kaczka/models/block/dustystairs_inner.json",
+          "src/main/resources/assets/kaczka/models/block/dustystairs.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustystairs.json",
+          "src/main/resources/assets/kaczka/models/block/dustystairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyslab",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/blockstates/dustyslab.json",
+          "src/main/resources/assets/kaczka/models/item/dustyslab.json",
+          "src/main/resources/assets/kaczka/models/block/dustyslab.json",
+          "src/main/resources/assets/kaczka/models/block/dustyslab_top.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyslab.json",
+          "src/main/resources/assets/kaczka/models/block/dustyslab_full.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyslabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Dustystairs1",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustystairs_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/dustystairs_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustystairs2",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustystairs_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/dustystairs_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyslabr1",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyslabr_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/dustyslabr_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyslabr2",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyslabr_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/dustyslabr_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyslabr3",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyslabr_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/dustyslabr_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Dusttostick",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusttostick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/dusttostick.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustysapling",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustysapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/block/dustysapling.json",
+          "src/main/resources/assets/kaczka/models/item/dustysapling.json",
+          "src/main/java/net/mcreator/kaczka/block/DustysaplingBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustysapling.json",
+          "src/main/resources/assets/kaczka/blockstates/dustysapling.json"
+        ]
+      }
+    },
+    {
+      "name": "DustyleavesBlockDestroyedByPlayer2",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyleaves_block_destroyed_by_player_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustyleavesBlockDestroyedByPlayer2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aslongasyouhaveenoughrubies",
+      "type": "achievement",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aslongasyouhaveenoughrubies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/advancements/aslongasyouhaveenoughrubies.json"
+        ]
+      }
+    },
+    {
+      "name": "What",
+      "type": "achievement",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/advancements/what.json"
+        ]
+      }
+    },
+    {
+      "name": "Tearsintherain",
+      "type": "achievement",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tearsintherain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/advancements/tearsintherain.json"
+        ]
+      }
+    },
+    {
+      "name": "Doneanddusted",
+      "type": "achievement",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doneanddusted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/advancements/doneanddusted.json"
+        ]
+      }
+    },
+    {
+      "name": "Backintime",
+      "type": "achievement",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backintime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/advancements/backintime.json"
+        ]
+      }
+    },
+    {
+      "name": "DustysaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustysapling_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustysaplingUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DustysaplingBlockAdded",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustysapling_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustysaplingBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DustysaplingOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustysapling_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustysaplingOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustywoods",
+      "type": "biome",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustywoods",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustywoods_tree.json",
+          "src/main/resources/data/kaczka/worldgen/biome/dustywoods.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustywoods_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustycrafting",
+      "type": "gui",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycrafting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/world/inventory/DustycraftingMenu.java",
+          "src/main/java/net/mcreator/kaczka/client/gui/DustycraftingScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Dustycraftingtable",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycraftingtable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DustycraftingtableBlock.java",
+          "src/main/resources/assets/kaczka/models/item/dustycraftingtable.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustycraftingtable.json",
+          "src/main/resources/assets/kaczka/blockstates/dustycraftingtable.json",
+          "src/main/resources/assets/kaczka/models/block/dustycraftingtable.json"
+        ]
+      }
+    },
+    {
+      "name": "DustycraftingtableBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycraftingtable_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustycraftingtableBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustycraftingr",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycraftingr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/dustycraftingr.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustystone",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustystone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DustystoneBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustystone.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustystone.json",
+          "src/main/resources/assets/kaczka/blockstates/dustystone.json",
+          "src/main/resources/assets/kaczka/models/item/dustystone.json"
+        ]
+      }
+    },
+    {
+      "name": "Dusth",
+      "type": "loottable",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusth",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/loot_tables/chests/dusth.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustycobblestone",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycobblestone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DustycobblestoneBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustycobblestone.json",
+          "src/main/resources/assets/kaczka/models/item/dustycobblestone.json",
+          "src/main/resources/assets/kaczka/blockstates/dustycobblestone.json",
+          "src/main/resources/assets/kaczka/models/block/dustycobblestone.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustparticle",
+      "type": "particle",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustparticle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/particles/dustparticle.json",
+          "src/main/java/net/mcreator/kaczka/client/particle/DustparticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "DustydimensionPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustydimension_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustydimensionPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustcobbletocobble",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustcobbletocobble",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/dustcobbletocobble.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustymoss",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustymoss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DustymossBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustymoss.json",
+          "src/main/resources/assets/kaczka/models/item/dustymoss.json",
+          "src/main/resources/assets/kaczka/models/block/dustymoss.json",
+          "src/main/resources/assets/kaczka/blockstates/dustymoss.json"
+        ]
+      }
+    },
+    {
+      "name": "DustystoneBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustystone_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustystoneBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustymossbreak",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustymossbreak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustymossbreakProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustywastelands",
+      "type": "biome",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustywastelands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/biome/dustywastelands.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustynetherrack",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustynetherrack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/dustynetherrack.json",
+          "src/main/resources/assets/kaczka/blockstates/dustynetherrack.json",
+          "src/main/java/net/mcreator/kaczka/block/DustynetherrackBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustynetherrack.json",
+          "src/main/resources/assets/kaczka/models/block/dustynetherrack.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyglowstone",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyglowstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/blockstates/dustyglowstone.json",
+          "src/main/resources/assets/kaczka/models/item/dustyglowstone.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyglowstoneBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustyglowstone.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyglowstone.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyrubyore",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyrubyore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustyrubyore.json",
+          "src/main/resources/assets/kaczka/models/item/dustyrubyore.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyrubyore.json",
+          "src/main/resources/assets/kaczka/blockstates/dustyrubyore.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustyrubyore.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyrubyoreBlock.java",
+          "src/main/resources/data/kaczka/forge/biome_modifier/dustyrubyore_biome_modifier.json",
+          "src/main/resources/assets/kaczka/models/block/dustyrubyore.json"
+        ]
+      }
+    },
+    {
+      "name": "Cryingglowstone",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryingglowstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/cryingglowstone.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/cryingglowstone.json",
+          "src/main/resources/assets/kaczka/blockstates/cryingglowstone.json",
+          "src/main/resources/assets/kaczka/models/block/cryingglowstone.json",
+          "src/main/java/net/mcreator/kaczka/block/CryingglowstoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "The",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/block/the.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/the.json",
+          "src/main/resources/assets/kaczka/blockstates/the.json",
+          "src/main/java/net/mcreator/kaczka/block/TheBlock.java",
+          "src/main/resources/assets/kaczka/models/item/the.json"
+        ]
+      }
+    },
+    {
+      "name": "DustyhousespawnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyhousespawn_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustyhousespawnOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustyhousespawn",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyhousespawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/dustyhousespawn.json",
+          "src/main/resources/assets/kaczka/blockstates/dustyhousespawn.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyhousespawn.json",
+          "src/main/resources/assets/kaczka/models/block/dustyhousespawn.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyhousespawnBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Wastelands2",
+      "type": "biome",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelands_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/biome/wastelands_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Sapphireoredestroy",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireoredestroy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/SapphireoredestroyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sapphireore",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/SapphireoreBlock.java",
+          "src/main/resources/assets/kaczka/models/block/sapphireore.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/sapphireore.json",
+          "src/main/resources/assets/kaczka/blockstates/sapphireore.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/sapphireore.json",
+          "src/main/resources/assets/kaczka/models/item/sapphireore.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/sapphireore.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/sapphireore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/sapphire.json",
+          "src/main/java/net/mcreator/kaczka/item/SapphireItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sapphireparticle",
+      "type": "particle",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireparticle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/particles/sapphireparticle.json",
+          "src/main/java/net/mcreator/kaczka/client/particle/SapphireparticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "Sapphirecave",
+      "type": "biome",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphirecave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/biome/sapphirecave.json"
+        ]
+      }
+    },
+    {
+      "name": "Sapphireblock",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/block/sapphireblock.json",
+          "src/main/resources/assets/kaczka/blockstates/sapphireblock.json",
+          "src/main/resources/assets/kaczka/models/item/sapphireblock.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/sapphireblock.json",
+          "src/main/java/net/mcreator/kaczka/block/SapphireblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Ssapphireblock",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssapphireblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/ssapphireblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldcave",
+      "type": "biome",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldcave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/biome/emeraldcave.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustyglowstonebreak",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyglowstonebreak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustyglowstonebreakProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustierdiemsion",
+      "type": "dimension",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustierdiemsion",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/java/net/mcreator/kaczka/world/dimension/DustierdiemsionDimension.java",
+          "src/main/resources/data/kaczka/dimension_type/dustierdiemsion.json",
+          "src/main/java/net/mcreator/kaczka/block/DustierdiemsionPortalBlock.java",
+          "src/main/java/net/mcreator/kaczka/item/DustierdiemsionItem.java",
+          "src/main/resources/data/kaczka/dimension/dustierdiemsion.json",
+          "src/main/resources/assets/kaczka/blockstates/dustierdiemsion_portal.json",
+          "src/main/resources/assets/kaczka/models/block/dustierdiemsion_portal_ew.json",
+          "src/main/java/net/mcreator/kaczka/world/teleporter/DustierdiemsionTeleporter.java",
+          "src/main/java/net/mcreator/kaczka/world/teleporter/DustierdiemsionPortalShape.java",
+          "src/main/resources/assets/kaczka/models/block/dustierdiemsion_portal_ns.json",
+          "src/main/resources/assets/kaczka/models/item/dustierdiemsion.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustycryingobsidian",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycryingobsidian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DustycryingobsidianBlock.java",
+          "src/main/resources/assets/kaczka/models/item/dustycryingobsidian.json",
+          "src/main/resources/assets/kaczka/models/block/dustycryingobsidian.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustycryingobsidian.json",
+          "src/main/resources/assets/kaczka/blockstates/dustycryingobsidian.json"
+        ]
+      }
+    },
+    {
+      "name": "Dustycryingglowstone",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycryingglowstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/DustycryingglowstoneBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/dustycryingglowstone.json",
+          "src/main/resources/assets/kaczka/models/item/dustycryingglowstone.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustycryingglowstone.json",
+          "src/main/resources/assets/kaczka/models/block/dustycryingglowstone.json"
+        ]
+      }
+    },
+    {
+      "name": "DustyportalspawnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyportalspawn_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustyportalspawnOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustyportalspawn",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyportalspawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyportalspawn.json",
+          "src/main/resources/assets/kaczka/blockstates/dustyportalspawn.json",
+          "src/main/resources/assets/kaczka/models/item/dustyportalspawn.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyportalspawnBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustyportalspawn.json"
+        ]
+      }
+    },
+    {
+      "name": "Aetherportalspawn",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherportalspawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/blockstates/aetherportalspawn.json",
+          "src/main/resources/assets/kaczka/models/item/aetherportalspawn.json",
+          "src/main/resources/assets/kaczka/models/block/aetherportalspawn.json",
+          "src/main/java/net/mcreator/kaczka/block/AetherportalspawnBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/aetherportalspawn.json"
+        ]
+      }
+    },
+    {
+      "name": "AetherportalspawnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherportalspawn_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/AetherportalspawnOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DustyaetherportalpawnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyaetherportalpawn_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/DustyaetherportalpawnOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustyaetherportalpawn",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyaetherportalpawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/block/dustyaetherportalpawn.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyaetherportalpawn.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyaetherportalpawnBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/dustyaetherportalpawn.json",
+          "src/main/resources/assets/kaczka/models/item/dustyaetherportalpawn.json"
+        ]
+      }
+    },
+    {
+      "name": "Glowingobsidian",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowingobsidian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/GlowingobsidianBlock.java",
+          "src/main/resources/assets/kaczka/models/item/glowingobsidian.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/glowingobsidian.json",
+          "src/main/resources/assets/kaczka/blockstates/glowingobsidian.json",
+          "src/main/resources/assets/kaczka/models/block/glowingobsidian.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowingobsidianUpdateTick",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowingobsidian_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/GlowingobsidianUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netherreactor",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherreactor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/netherreactor.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/netherreactor.json",
+          "src/main/resources/assets/kaczka/blockstates/netherreactor.json",
+          "src/main/java/net/mcreator/kaczka/block/NetherreactorBlock.java",
+          "src/main/resources/assets/kaczka/models/block/netherreactor.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherreactorBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherreactor_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/NetherreactorBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netherreactorspawner",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherreactorspawner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/blockstates/netherreactorspawner.json",
+          "src/main/resources/assets/kaczka/models/item/netherreactorspawner.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/netherreactorspawner.json",
+          "src/main/resources/assets/kaczka/models/block/netherreactorspawner.json",
+          "src/main/java/net/mcreator/kaczka/block/NetherreactorspawnerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherreactorspawnerOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherreactorspawner_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/NetherreactorspawnerOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enderiteore",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiteore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/enderiteore.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/enderiteore.json",
+          "src/main/resources/assets/kaczka/blockstates/enderiteore.json",
+          "src/main/resources/assets/kaczka/models/block/enderiteore.json",
+          "src/main/java/net/mcreator/kaczka/block/EnderiteoreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Enderiteshard",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiteshard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/EnderiteshardItem.java",
+          "src/main/resources/assets/kaczka/models/item/enderiteshard.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyblocktorubies",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyblocktorubies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/rubyblocktorubies.json"
+        ]
+      }
+    },
+    {
+      "name": "Sapphireblocktosap",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireblocktosap",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/sapphireblocktosap.json"
+        ]
+      }
+    },
+    {
+      "name": "Prelude",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prelude",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/prelude.json",
+          "src/main/java/net/mcreator/kaczka/item/PreludeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PreludeSwitchState",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prelude_switch_state",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/PreludeSwitchStateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PreludeBlue",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prelude_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/prelude_blue.json",
+          "src/main/java/net/mcreator/kaczka/item/PreludeBlueItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PreludeBlueSwitchState",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prelude_blue_switch_state",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/PreludeBlueSwitchStateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Farmazony",
+      "type": "tab",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmazony",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Chemiakraft",
+      "type": "tab",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemiakraft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Oreswiraz",
+      "type": "tab",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oreswiraz",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Dusty",
+      "type": "tab",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusty",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Structures",
+      "type": "tab",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "structures",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Tsavorite",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsavorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/blockstates/tsavorite.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/tsavorite.json",
+          "src/main/resources/assets/kaczka/models/block/tsavorite.json",
+          "src/main/resources/assets/kaczka/models/item/tsavorite.json",
+          "src/main/java/net/mcreator/kaczka/block/TsavoriteBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Jadeitechisel",
+      "type": "tool",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitechisel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/JadeitechiselItem.java",
+          "src/main/resources/assets/kaczka/models/item/jadeitechisel.json"
+        ]
+      }
+    },
+    {
+      "name": "TsavoritePlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsavorite_player_starts_to_destroy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/TsavoritePlayerStartsToDestroyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jadeitegem",
+      "type": "item",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitegem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/jadeitegem.json",
+          "src/main/java/net/mcreator/kaczka/item/JadeitegemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Jadeitegemblock",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitegemblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/jadeitegemblock.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/jadeitegemblock.json",
+          "src/main/resources/assets/kaczka/models/block/jadeitegemblock.json",
+          "src/main/resources/assets/kaczka/blockstates/jadeitegemblock.json",
+          "src/main/java/net/mcreator/kaczka/block/JadeitegemblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Jadeitegemore",
+      "type": "block",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitegemore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/forge/biome_modifier/jadeitegemore_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/jadeitegemore.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/jadeitegemore.json",
+          "src/main/java/net/mcreator/kaczka/block/JadeitegemoreBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/jadeitegemore.json",
+          "src/main/resources/assets/kaczka/models/block/jadeitegemore.json",
+          "src/main/resources/assets/kaczka/blockstates/jadeitegemore.json",
+          "src/main/resources/assets/kaczka/models/item/jadeitegemore.json"
+        ]
+      }
+    },
+    {
+      "name": "Jadeitegemsilk",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitegemsilk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/JadeitegemsilkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jadeitechiselcrafting",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitechiselcrafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/jadeitechiselcrafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Jadeitecave",
+      "type": "biome",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitecave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/biome/jadeitecave.json"
+        ]
+      }
+    },
+    {
+      "name": "Blocktoitemjadeitegem",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocktoitemjadeitegem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/blocktoitemjadeitegem.json"
+        ]
+      }
+    },
+    {
+      "name": "Jadeiteblockgemrec",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeiteblockgemrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/recipes/jadeiteblockgemrec.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidMessenger",
+      "type": "item",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_messenger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/VoidMessengerItem.java",
+          "src/main/resources/assets/kaczka/models/item/void_messenger.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidMessengerLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_messenger_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/VoidMessengerLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Powertoken",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powertoken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/PowertokenItem.java",
+          "src/main/resources/assets/kaczka/models/item/powertoken.json"
+        ]
+      }
+    },
+    {
+      "name": "NitrogenMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitrogen_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/NitrogenMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nitrogen",
+      "type": "fluid",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitrogen",
+      "metadata": {
+        "gb": true,
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/NitrogenBlock.java",
+          "src/main/java/net/mcreator/kaczka/item/NitrogenItem.java",
+          "src/main/java/net/mcreator/kaczka/fluid/types/NitrogenFluidType.java",
+          "src/main/resources/assets/kaczka/models/item/nitrogen_bucket.json",
+          "src/main/resources/assets/kaczka/models/block/nitrogen.json",
+          "src/main/resources/assets/kaczka/blockstates/nitrogen.json",
+          "src/main/java/net/mcreator/kaczka/fluid/NitrogenFluid.java"
+        ]
+      }
+    },
+    {
+      "name": "FireworksProjectile",
+      "type": "projectile",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireworks_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/entity/FireworksProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Fireworks",
+      "type": "item",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireworks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/fireworks.json",
+          "src/main/java/net/mcreator/kaczka/item/FireworksItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CesiumampuleProjectile",
+      "type": "projectile",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cesiumampule_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/entity/CesiumampuleProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Cesiumampule",
+      "type": "item",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cesiumampule",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/cesiumampule.json",
+          "src/main/java/net/mcreator/kaczka/item/CesiumampuleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DustytreeFeature",
+      "type": "feature",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustytree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/forge/biome_modifier/dustytree_feature_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustytree_feature.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustytree_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "DustyhouseFeature",
+      "type": "feature",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyhouse_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustyhouse_feature.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustyhouse_feature.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/dustyhouse_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "AetherportalruinedFeature",
+      "type": "feature",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherportalruined_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/placed_feature/aetherportalruined_feature.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/aetherportalruined_feature_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/aetherportalruined_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "DustyruinednetherportalFeature",
+      "type": "feature",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyruinednetherportal_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustyruinednetherportal_feature.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/dustyruinednetherportal_feature_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustyruinednetherportal_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "DustyaetherportalFeature",
+      "type": "feature",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyaetherportal_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustyaetherportal_feature.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/dustyaetherportal_feature_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustyaetherportal_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "NetherreactorspawnFeature",
+      "type": "feature",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherreactorspawn_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/placed_feature/netherreactorspawn_feature.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/netherreactorspawn_feature.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/netherreactorspawn_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "NitrogenFeature",
+      "type": "feature",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitrogen_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/placed_feature/nitrogen_feature.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/nitrogen_feature_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/nitrogen_feature.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Nitrogen"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:Dustywoods"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Jadeitecave",
+      "~CUSTOM:Emeraldcave",
+      "~CUSTOM:Sapphirecave",
+      "~CUSTOM:Dustywoods",
+      "~CUSTOM:Rubycave"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Dustymoss",
+      "~CUSTOM:Dustydirt",
+      "~CUSTOM:Dustycobblestone",
+      "~CUSTOM:Dustystone",
+      "~CUSTOM:Dustygrass"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:Dustylog"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "CUSTOM:Dustyleaves"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:Dustydirt",
+      "CUSTOM:Dustygrass",
+      "CUSTOM:Dustycobblestone",
+      "CUSTOM:Dustymoss"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Dustyslab",
+      "~CUSTOM:Goldenbrickslab",
+      "~CUSTOM:Rubyprismarineslab"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Jadeitegemore",
+      "~CUSTOM:Jadeitegemblock",
+      "~CUSTOM:Tsavorite",
+      "~CUSTOM:Enderiteore",
+      "~CUSTOM:Netherreactor",
+      "~CUSTOM:Sapphireblock",
+      "~CUSTOM:Sapphireore",
+      "~CUSTOM:Dustyrubyore",
+      "~CUSTOM:Dustycobblestone",
+      "~CUSTOM:Dustystone",
+      "~CUSTOM:ToretzanOre",
+      "~CUSTOM:Dustyobsidian",
+      "~CUSTOM:Deepstone",
+      "~CUSTOM:Jadeiteblock",
+      "~CUSTOM:Rubycrystal",
+      "~CUSTOM:Goldenbrickslab",
+      "~CUSTOM:Goldenbrickstairs",
+      "~CUSTOM:Rubyprismarineslab",
+      "~CUSTOM:Rubyprismarinestairs",
+      "~CUSTOM:Rubyblock",
+      "~CUSTOM:Rubyprismarine",
+      "~CUSTOM:Rubyore",
+      "~CUSTOM:Netherdiamondore",
+      "~CUSTOM:Goldenbricks"
+    ],
+    "ENTITIES:forge:prelude_blue_mob": [
+      "EntityIllusionIllager",
+      "EntityGlowSquid",
+      "EntityDrowned",
+      "EntityWarden",
+      "EntityAllay"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Dustymoss"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Dustystairs",
+      "~CUSTOM:Goldenbrickstairs",
+      "~CUSTOM:Rubyprismarinestairs"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "advancements.aslongasyouhaveenoughrubies.descr": "find ruby ",
+      "block.kaczka.rubyprismarine": "Ruby prismarine",
+      "item.kaczka.dustydimension": "obsidian and steel",
+      "block.kaczka.dustydirt": "Dusty dirt",
+      "itemGroup.tabfarmazony": "Farmazony",
+      "block.kaczka.dustyaetherportalpawn": "Dustyaetherportalpawn",
+      "item_group.kaczka.oreswiraz": "Oreswiraz",
+      "item.kaczka.ruby": "Ruby",
+      "advancements.what.descr": "mine nether diamond ore",
+      "block.kaczka.rubylantern": "Ruby lantern",
+      "block.kaczka.rubyflower": "Ruby flower",
+      "block.kaczka.jadeitegemblock": "Jadeite gem block",
+      "block.kaczka.jadeiteblock": " jadeite block",
+      "block.kaczka.dustyglowstone": "Dusty glowstone",
+      "block.kaczka.netherreactor": "Nether reactor core",
+      "item_group.kaczka.structures": "Structures",
+      "item.kaczka.jadeitegem": "Jadeite gem",
+      "item.kaczka.dust": "Dust",
+      "biome.kaczka.sapphirecave": "sapphirecave",
+      "block.kaczka.tsavorite": "Tsavorite",
+      "item.kaczka.deep_iron_blade": "Deep Iron Blade",
+      "block.kaczka.rubyblock": " ruby block",
+      "block.kaczka.rubyprismarineslab": "Ruby prismarine slab",
+      "advancements.doneanddusted.title": "Done and dusted",
+      "block.kaczka.dustyportalspawn": "Dusty portal spawn",
+      "item.kaczka.fireworks": "Fireworks",
+      "block.kaczka.cryingglowstone": "Crying glowstone",
+      "block.kaczka.dustycryingobsidian": "Dusty crying obsidian",
+      "block.kaczka.dustyrubyore": "Dusty ruby ore",
+      "item_group.kaczka.dusty": "Dusty",
+      "item.kaczka.prelude": "Prelude",
+      "block.kaczka.dustyplanks": "Dusty planks",
+      "item.kaczka.cesiumampule": "Cesium ampule",
+      "block.kaczka.dustynetherrack": "Dusty netherrack",
+      "block.kaczka.deep_shard_block": "Deep Shard Block",
+      "block.kaczka.dustystone": "Dusty stone",
+      "item.kaczka.foravara": "Foravara",
+      "block.kaczka.deep_iron_block": "Deep Iron Block",
+      "item.kaczka.sapphire": "Sapphire",
+      "block.kaczka.goldenbricks": "Golden bricks",
+      "item.kaczka.powertoken": "Powertoken",
+      "block.kaczka.dustycraftingtable": "Dusty crafting table",
+      "advancements.backintime.title": "Back in time",
+      "item.kaczka.rubyneckle_chestplate": "Rubyneckle Body",
+      "item_group.kaczka.kaczka": "Kaczka",
+      "block.kaczka.block_of_depth": "Block Of Depth",
+      "block.kaczka.dustyleaves": "Dusty leaves",
+      "block.kaczka.depth_extractor": "Depth Extractor",
+      "block.kaczka.the": "The",
+      "block.kaczka.jadeitegemore": "jadeite gem ore",
+      "fluid.kaczka.nitrogen": "Nitrogen",
+      "block.kaczka.netherreactorspawner": "Nether reactor spawner",
+      "biome.kaczka.dustyplains": "Dusty plains",
+      "block.kaczka.gildedclay": "Gilded clay",
+      "biome.kaczka.wastelands_2": "Wastelands2",
+      "advancements.backintime.descr": "get back in time",
+      "item.kaczka.void_messenger": "Void Messenger",
+      "biome.kaczka.dustywoods": "Dustywoods",
+      "block.kaczka.sapphireore": "Sapphire ore",
+      "itemGroup.tabkaczka": "Kaczka",
+      "advancements.tearsintherain.title": "Tears in the rain",
+      "block.kaczka.glowingobsidian": "Glowing obsidian",
+      "biome.kaczka.jadeitecave": "Rubycave",
+      "block.kaczka.jadeitegravelore": "Jadeite gravel ore",
+      "block.kaczka.dustylog": "Dusty log",
+      "biome.kaczka.dustywastelands": "Dusty wastelands",
+      "advancements.what.title": "What",
+      "item.kaczka.enderiteshard": "Enderite shard",
+      "item.kaczka.dustierdiemsion": "dusty water bucket",
+      "block.kaczka.goldenbrickstairs": "Golden brick stairs",
+      "item.kaczka.deep_iron": "Deep Iron",
+      "block.kaczka.dustyslab": "Dusty wooden slab",
+      "biome.kaczka.emeraldcave": "sapphirecave",
+      "itemGroup.tabstructures": "Structures",
+      "block.kaczka.rubyore": "Ruby ore",
+      "item.kaczka.prelude_blue": "Prelude Blue",
+      "item_group.kaczka.chemiakraft": "Chemiakraft",
+      "block.kaczka.deepstone": "Deepstone",
+      "advancements.aslongasyouhaveenoughrubies.title": "As long as you have enough rubies",
+      "block.kaczka.toretzan_ore": "Toretzan Ore",
+      "advancements.tearsintherain.descr": "throw cesium ampule when its raining",
+      "item.kaczka.depth": "Depth",
+      "item.kaczka.deep_shard": "Deep Shard",
+      "block.kaczka.dustyhousespawn": "Dusty house spawn",
+      "block.kaczka.foravara_ore": "Foravara Ore",
+      "item.kaczka.jadeitechisel": "Jadeite chisel",
+      "itemGroup.taboreswiraz": "Oreswiraz",
+      "block.kaczka.goldenbrickslab": "Golden brick slab",
+      "block.kaczka.dustysapling": "Dusty sapling",
+      "itemGroup.tabdusty": "Dusty",
+      "biome.kaczka.rubycave": "Rubycave",
+      "block.kaczka.dustystairs": "Dusty wooden stairs",
+      "block.kaczka.dustycobblestone": "Dusty cobblestone",
+      "itemGroup.tabchemiakraft": "Chemiakraft",
+      "block.kaczka.sapphireblock": "sapphire block",
+      "item.kaczka.toretzan": "Toretzan",
+      "block.kaczka.dustyobsidian": "Dusty obsidian",
+      "gui.kaczka.depth_extractor_interface.button_extract": "Extract -\u003e",
+      "block.kaczka.rubyprismarinestairs": "Ruby prismarine stairs",
+      "block.kaczka.enderiteore": "Enderite ore",
+      "block.kaczka.aetherportalspawn": "Aether portal spawn",
+      "item_group.kaczka.farmazony": "Farmazony",
+      "block.kaczka.dustygrass": "Dusty grass block",
+      "block.kaczka.rubycrystal": "Ruby crystal",
+      "advancements.doneanddusted.descr": "craft a dusted obsidian",
+      "item.kaczka.gildedclaypiece": " gilded clay piece",
+      "block.kaczka.dustymoss": "Dusty moss",
+      "block.kaczka.netherdiamondore": "Netherdiamondore",
+      "item.kaczka.nitrogen_bucket": "Nitrogen Bucket",
+      "block.kaczka.dustycryingglowstone": "Dusty crying glowstone",
+      "block.kaczka.nitrogen": "Nitrogen"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kaczka",
+    "modName": "kaczka",
+    "version": "2.2.4.4",
+    "description": "kacz",
+    "author": "janik gry300",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.kaczka"
+  },
+  "mcreatorVersion": 202400115821
+}

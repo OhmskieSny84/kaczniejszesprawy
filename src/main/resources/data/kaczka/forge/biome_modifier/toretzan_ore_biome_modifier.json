@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "kaczka:rubycave",
+    "taiga",
+    "plains",
+    "snowy_taiga"
+  ],
+  "features": "kaczka:toretzan_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "kaczka:block/dusty_planks",
+    "top": "kaczka:block/dusty_planks",
+    "side": "kaczka:block/dusty_planks"
+  },
+  "render_type": "solid"
+}

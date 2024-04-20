@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "lush_caves",
+  "features": "kaczka:gildedclay",
+  "step": "underground_ores"
+}

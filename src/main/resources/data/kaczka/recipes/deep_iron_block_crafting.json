@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "kaczka:deep_iron"
+    }
+  },
+  "result": {
+    "item": "kaczka:deep_iron_block",
+    "count": 1
+  }
+}

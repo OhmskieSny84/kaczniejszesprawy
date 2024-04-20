@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "kaczka:wastelands_2",
+    "kaczka:dustywastelands"
+  ],
+  "features": "kaczka:netherreactorspawn_feature",
+  "step": "underground_structures"
+}

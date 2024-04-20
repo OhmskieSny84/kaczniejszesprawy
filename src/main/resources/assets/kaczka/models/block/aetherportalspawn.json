@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/dustyglowstone",
+    "up": "kaczka:block/dustyglowstone",
+    "north": "kaczka:block/dustycryingglowstone",
+    "east": "kaczka:block/placeholder",
+    "south": "kaczka:block/dustycryingglowstone",
+    "west": "kaczka:block/placeholder",
+    "particle": "kaczka:block/dustyglowstone"
+  },
+  "render_type": "solid"
+}

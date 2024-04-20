@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:DeepIron"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:DeepIronBlade"
+    },
+    "name": "deep_iron_blade_grind",
+    "namespace": "mod"
+  }
+}

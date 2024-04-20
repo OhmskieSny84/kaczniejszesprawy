@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "kaczka:deep_shard"
+    }
+  },
+  "result": {
+    "item": "kaczka:deep_shard_block",
+    "count": 1
+  }
+}

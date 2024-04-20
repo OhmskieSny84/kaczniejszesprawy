@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/golden_clay",
+    "up": "kaczka:block/golden_clay",
+    "north": "kaczka:block/golden_clay",
+    "east": "kaczka:block/golden_clay",
+    "south": "kaczka:block/golden_clay",
+    "west": "kaczka:block/golden_clay",
+    "particle": "kaczka:block/golden_clay"
+  },
+  "render_type": "solid"
+}

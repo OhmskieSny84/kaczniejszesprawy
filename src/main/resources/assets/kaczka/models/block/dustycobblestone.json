@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/dusty_cobblestone",
+    "up": "kaczka:block/dusty_cobblestone",
+    "north": "kaczka:block/dusty_cobblestone",
+    "east": "kaczka:block/dusty_cobblestone",
+    "south": "kaczka:block/dusty_cobblestone",
+    "west": "kaczka:block/dusty_cobblestone",
+    "particle": "kaczka:block/dusty_cobblestone"
+  },
+  "render_type": "solid"
+}

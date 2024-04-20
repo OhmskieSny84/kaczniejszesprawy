@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "b": {
+      "item": "kaczka:ruby"
+    }
+  },
+  "result": {
+    "item": "kaczka:rubylantern",
+    "count": 3
+  }
+}

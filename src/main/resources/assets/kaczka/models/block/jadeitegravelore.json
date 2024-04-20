@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/jadeite_gravel",
+    "up": "kaczka:block/jadeite_gravel",
+    "north": "kaczka:block/jadeite_gravel",
+    "east": "kaczka:block/jadeite_gravel",
+    "south": "kaczka:block/jadeite_gravel",
+    "west": "kaczka:block/jadeite_gravel",
+    "particle": "kaczka:block/jadeite_gravel"
+  },
+  "render_type": "solid"
+}

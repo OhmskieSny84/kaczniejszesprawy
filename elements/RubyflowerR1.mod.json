@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Rubyflower"
+      },
+      {
+        "value": "CUSTOM:Rubyflower"
+      },
+      {
+        "value": "CUSTOM:Rubyflower"
+      },
+      {
+        "value": "CUSTOM:Rubyflower"
+      },
+      {
+        "value": "CUSTOM:Rubyflower"
+      },
+      {
+        "value": "CUSTOM:Rubyflower"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ruby"
+    },
+    "name": "rubyflower_r_1",
+    "namespace": "mod"
+  }
+}

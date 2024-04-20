@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/sapphire_block",
+    "up": "kaczka:block/sapphire_block",
+    "north": "kaczka:block/sapphire_block",
+    "east": "kaczka:block/sapphire_block",
+    "south": "kaczka:block/sapphire_block",
+    "west": "kaczka:block/sapphire_block",
+    "particle": "kaczka:block/sapphire_block"
+  },
+  "render_type": "solid"
+}

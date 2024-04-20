@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/dusty_leaves",
+    "up": "kaczka:block/dusty_leaves",
+    "north": "kaczka:block/dusty_leaves",
+    "east": "kaczka:block/dusty_leaves",
+    "south": "kaczka:block/dusty_leaves",
+    "west": "kaczka:block/dusty_leaves",
+    "particle": "kaczka:block/dusty_leaves"
+  },
+  "render_type": "solid"
+}

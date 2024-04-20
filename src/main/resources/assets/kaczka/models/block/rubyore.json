@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/ruby_ore",
+    "up": "kaczka:block/ruby_ore",
+    "north": "kaczka:block/ruby_ore",
+    "east": "kaczka:block/ruby_ore",
+    "south": "kaczka:block/ruby_ore",
+    "west": "kaczka:block/ruby_ore",
+    "particle": "kaczka:block/ruby_ore"
+  },
+  "render_type": "solid"
+}

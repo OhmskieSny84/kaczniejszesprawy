@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "kaczka:block/golden_bricks",
+    "top": "kaczka:block/golden_bricks",
+    "side": "kaczka:block/golden_bricks"
+  },
+  "render_type": "solid"
+}

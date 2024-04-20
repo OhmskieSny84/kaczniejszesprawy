@@ -1,0 +1,12 @@
+{
+  "type": "kaczka:structure_feature",
+  "config": {
+    "structure": "kaczka:glowstoneportal",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -3,
+      0
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/nether_reactor",
+    "up": "kaczka:block/nether_reactor",
+    "north": "kaczka:block/nether_reactor",
+    "east": "kaczka:block/nether_reactor",
+    "south": "kaczka:block/nether_reactor",
+    "west": "kaczka:block/nether_reactor",
+    "particle": "kaczka:block/nether_reactor"
+  },
+  "render_type": "solid"
+}

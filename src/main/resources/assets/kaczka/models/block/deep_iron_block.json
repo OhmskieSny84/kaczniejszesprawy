@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/deepironblock",
+    "up": "kaczka:block/deepironblock",
+    "north": "kaczka:block/deepironblock",
+    "east": "kaczka:block/deepironblock",
+    "south": "kaczka:block/deepironblock",
+    "west": "kaczka:block/deepironblock",
+    "particle": "kaczka:block/deepironblock"
+  },
+  "render_type": "solid"
+}

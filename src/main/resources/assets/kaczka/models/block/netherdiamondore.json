@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/nether_diamond_ore",
+    "up": "kaczka:block/nether_diamond_ore",
+    "north": "kaczka:block/nether_diamond_ore",
+    "east": "kaczka:block/nether_diamond_ore",
+    "south": "kaczka:block/nether_diamond_ore",
+    "west": "kaczka:block/nether_diamond_ore",
+    "particle": "kaczka:block/nether_diamond_ore"
+  },
+  "render_type": "solid"
+}

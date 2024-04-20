@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/block_o_depth",
+    "up": "kaczka:block/block_o_depth",
+    "north": "kaczka:block/block_o_depth",
+    "east": "kaczka:block/block_o_depth",
+    "south": "kaczka:block/block_o_depth",
+    "west": "kaczka:block/block_o_depth",
+    "particle": "kaczka:block/block_o_depth"
+  },
+  "render_type": "solid"
+}

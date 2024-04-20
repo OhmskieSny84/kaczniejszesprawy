@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/ruby_prismarine",
+    "up": "kaczka:block/ruby_prismarine",
+    "north": "kaczka:block/ruby_prismarine",
+    "east": "kaczka:block/ruby_prismarine",
+    "south": "kaczka:block/ruby_prismarine",
+    "west": "kaczka:block/ruby_prismarine",
+    "particle": "kaczka:block/ruby_prismarine"
+  },
+  "render_type": "solid"
+}

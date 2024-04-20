@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/jadeite_block_umi_fix",
+    "up": "kaczka:block/jadeite_block_umi_fix",
+    "north": "kaczka:block/jadeite_block_umi_fix",
+    "east": "kaczka:block/jadeite_block_umi_fix",
+    "south": "kaczka:block/jadeite_block_umi_fix",
+    "west": "kaczka:block/jadeite_block_umi_fix",
+    "particle": "kaczka:block/jadeite_block_umi_fix"
+  },
+  "render_type": "solid"
+}

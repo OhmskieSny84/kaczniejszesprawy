@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "kaczka:sapphirecave",
+  "features": "kaczka:sapphireore",
+  "step": "underground_ores"
+}

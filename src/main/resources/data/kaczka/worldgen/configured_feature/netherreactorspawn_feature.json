@@ -1,0 +1,7 @@
+{
+  "type": "kaczka:structure_feature",
+  "config": {
+    "structure": "kaczka:nether_reactor_core",
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

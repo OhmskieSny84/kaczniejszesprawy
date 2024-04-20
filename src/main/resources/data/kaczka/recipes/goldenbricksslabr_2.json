@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "kaczka:goldenbricks"
+    }
+  },
+  "result": {
+    "item": "kaczka:goldenbrickslab",
+    "count": 6
+  }
+}

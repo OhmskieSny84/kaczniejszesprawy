@@ -1,0 +1,14 @@
+{
+  "type": "kaczka:structure_feature",
+  "config": {
+    "structure": "kaczka:dusty_tree",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      -1,
+      0,
+      -1
+    ]
+  }
+}

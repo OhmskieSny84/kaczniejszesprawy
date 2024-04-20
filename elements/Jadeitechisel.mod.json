@@ -1,0 +1,36 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "jadeite_block_umi_fix",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Jadeite chisel",
+    "specialInformation": {
+      "fixedValue": [
+        "It helps you brake blocks you otherwise dont wanna break"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Farmazony"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.5,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:Jadeitegem"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

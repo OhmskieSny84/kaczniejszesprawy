@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/end_green_crystal",
+    "up": "kaczka:block/end_green_crystal",
+    "north": "kaczka:block/end_green_crystal",
+    "east": "kaczka:block/end_green_crystal",
+    "south": "kaczka:block/end_green_crystal",
+    "west": "kaczka:block/end_green_crystal",
+    "particle": "kaczka:block/end_green_crystal"
+  },
+  "render_type": "solid"
+}

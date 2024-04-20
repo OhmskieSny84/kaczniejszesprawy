@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/ruby_lantern_animation",
+    "up": "kaczka:block/ruby_lantern_animation",
+    "north": "kaczka:block/ruby_lantern_animation",
+    "east": "kaczka:block/ruby_lantern_animation",
+    "south": "kaczka:block/ruby_lantern_animation",
+    "west": "kaczka:block/ruby_lantern_animation",
+    "particle": "kaczka:block/ruby_lantern_animation"
+  },
+  "render_type": "solid"
+}

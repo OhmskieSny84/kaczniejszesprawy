@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "kaczka:jadeitecave",
+  "features": "kaczka:jadeitegemore",
+  "step": "underground_ores"
+}

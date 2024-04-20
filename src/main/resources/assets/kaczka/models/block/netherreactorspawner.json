@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/glowing_obsidian",
+    "up": "kaczka:block/nether_reactor",
+    "north": "kaczka:block/portala22",
+    "east": "kaczka:block/dusty_netherrack",
+    "south": "kaczka:block/glowing_obsidian",
+    "west": "kaczka:block/nether_reactor",
+    "particle": "kaczka:block/glowing_obsidian"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "kaczka:dustyplains",
+    "kaczka:dustywoods",
+    "kaczka:dustywastelands",
+    "kaczka:wastelands_2"
+  ],
+  "features": "kaczka:dustyaetherportal_feature",
+  "step": "surface_structures"
+}

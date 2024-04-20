@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "kaczka:dustyplains",
+    "kaczka:dustywoods",
+    "kaczka:dustywastelands",
+    "kaczka:wastelands_2"
+  ],
+  "features": "kaczka:dustyrubyore",
+  "step": "underground_ores"
+}

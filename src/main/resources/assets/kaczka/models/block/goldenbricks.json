@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/golden_bricks",
+    "up": "kaczka:block/golden_bricks",
+    "north": "kaczka:block/golden_bricks",
+    "east": "kaczka:block/golden_bricks",
+    "south": "kaczka:block/golden_bricks",
+    "west": "kaczka:block/golden_bricks",
+    "particle": "kaczka:block/golden_bricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "kaczka:rubycave",
+  "features": "kaczka:rubyore",
+  "step": "underground_ores"
+}

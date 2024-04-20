@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "kaczka:rubyprismarine"
+    }
+  },
+  "result": {
+    "item": "kaczka:rubyprismarineslab",
+    "count": 6
+  }
+}

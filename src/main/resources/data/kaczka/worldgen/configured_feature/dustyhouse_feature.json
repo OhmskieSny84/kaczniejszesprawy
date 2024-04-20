@@ -1,0 +1,9 @@
+{
+  "type": "kaczka:structure_feature",
+  "config": {
+    "structure": "kaczka:dustyhouse",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

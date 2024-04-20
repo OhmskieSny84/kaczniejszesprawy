@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "kaczka:depth"
+    }
+  },
+  "result": {
+    "item": "kaczka:block_of_depth",
+    "count": 1
+  }
+}
