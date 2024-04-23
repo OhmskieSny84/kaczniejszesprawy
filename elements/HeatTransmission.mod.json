@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "depth_messenger",
+    "texture": "heat_transmission",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Void Messenger",
+    "name": "Heat Transmission",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Oreswiraz"
+      "value": "CUSTOM:Kaczka"
     },
     "stackSize": 16,
     "enchantability": 0,
@@ -29,8 +29,10 @@
     "specialInformation": {
       "fixedValue": [
         "One-time use:",
-        "deal 5 VOID damage to enemy on hit",
-        "give one POWERTOKEN to user."
+        "If user is on fire:",
+        "On hit extinguish user,",
+        "Set enemy on fire for 5s,",
+        "Give 2 POWERTOKENS to user."
       ]
     },
     "glowCondition": {
@@ -40,7 +42,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onEntityHitWith": {
-      "name": "VoidMessengerLivingEntityIsHitWithItem"
+      "name": "HeatTsonLivingEntityIsHitWithItem"
     },
     "enableRanged": false,
     "shootConstantly": false,

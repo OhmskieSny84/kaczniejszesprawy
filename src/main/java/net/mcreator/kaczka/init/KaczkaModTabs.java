@@ -6,16 +6,21 @@ package net.mcreator.kaczka.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.kaczka.KaczkaMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class KaczkaModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, KaczkaMod.MODID);
 	public static final RegistryObject<CreativeModeTab> DUSTY = REGISTRY.register("dusty",
@@ -52,6 +57,7 @@ public class KaczkaModTabs {
 				tabData.accept(KaczkaModBlocks.DUSTYAETHERPORTALPAWN.get().asItem());
 				tabData.accept(KaczkaModItems.PRELUDE.get());
 				tabData.accept(KaczkaModItems.PRELUDE_BLUE.get());
+				tabData.accept(KaczkaModItems.HEAT_TRANSMISSION.get());
 			})
 
 					.build());
@@ -126,4 +132,11 @@ public class KaczkaModTabs {
 			})
 
 					.build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(KaczkaModItems.PRELUDE_MAN_SPAWN_EGG.get());
+		}
+	}
 }

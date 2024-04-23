@@ -3296,6 +3296,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -3523,6 +3527,60 @@
           "src/main/resources/data/kaczka/worldgen/configured_feature/nitrogen_feature.json"
         ]
       }
+    },
+    {
+      "name": "HeatTransmission",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heat_transmission",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/HeatTransmissionItem.java",
+          "src/main/resources/assets/kaczka/models/item/heat_transmission.json"
+        ]
+      }
+    },
+    {
+      "name": "HeatTsonLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heat_tson_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/HeatTsonLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PreludeMan",
+      "type": "animatedentity",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prelude_man",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/entity/PreludeManEntity.java",
+          "src/main/resources/assets/kaczka/models/item/prelude_man_spawn_egg.json",
+          "src/main/java/net/mcreator/kaczka/client/renderer/PreludeManRenderer.java",
+          "src/main/java/net/mcreator/kaczka/entity/model/PreludeManModel.java",
+          "src/main/resources/data/kaczka/forge/biome_modifier/prelude_man_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3560,10 +3618,12 @@
       "CUSTOM:Dustycobblestone",
       "CUSTOM:Dustymoss"
     ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:Dustyslab",
-      "~CUSTOM:Goldenbrickslab",
-      "~CUSTOM:Rubyprismarineslab"
+    "ENTITIES:forge:prelude_blue_mob": [
+      "EntityIllusionIllager",
+      "EntityGlowSquid",
+      "EntityDrowned",
+      "EntityWarden",
+      "EntityAllay"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Jadeitegemore",
@@ -3591,12 +3651,10 @@
       "~CUSTOM:Netherdiamondore",
       "~CUSTOM:Goldenbricks"
     ],
-    "ENTITIES:forge:prelude_blue_mob": [
-      "EntityIllusionIllager",
-      "EntityGlowSquid",
-      "EntityDrowned",
-      "EntityWarden",
-      "EntityAllay"
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Dustyslab",
+      "~CUSTOM:Goldenbrickslab",
+      "~CUSTOM:Rubyprismarineslab"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:Dustymoss"
@@ -3639,6 +3697,7 @@
       "block.kaczka.dustycryingobsidian": "Dusty crying obsidian",
       "block.kaczka.dustyrubyore": "Dusty ruby ore",
       "item_group.kaczka.dusty": "Dusty",
+      "item.kaczka.prelude_man_spawn_egg": "Prelude Man Spawn Egg",
       "item.kaczka.prelude": "Prelude",
       "block.kaczka.dustyplanks": "Dusty planks",
       "item.kaczka.cesiumampule": "Cesium ampule",
@@ -3676,6 +3735,7 @@
       "block.kaczka.dustylog": "Dusty log",
       "biome.kaczka.dustywastelands": "Dusty wastelands",
       "advancements.what.title": "What",
+      "entity.kaczka.prelude_man": "Prelude Man",
       "item.kaczka.enderiteshard": "Enderite shard",
       "item.kaczka.dustierdiemsion": "dusty water bucket",
       "block.kaczka.goldenbrickstairs": "Golden brick stairs",
@@ -3716,6 +3776,7 @@
       "advancements.doneanddusted.descr": "craft a dusted obsidian",
       "item.kaczka.gildedclaypiece": " gilded clay piece",
       "block.kaczka.dustymoss": "Dusty moss",
+      "item.kaczka.heat_transmission": "Heat Transmission",
       "block.kaczka.netherdiamondore": "Netherdiamondore",
       "item.kaczka.nitrogen_bucket": "Nitrogen Bucket",
       "block.kaczka.dustycryingglowstone": "Dusty crying glowstone",
@@ -3738,7 +3799,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.kaczka"
