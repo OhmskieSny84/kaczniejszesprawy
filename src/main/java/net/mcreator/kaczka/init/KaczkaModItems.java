@@ -7,6 +7,7 @@ package net.mcreator.kaczka.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -23,6 +24,7 @@ import net.mcreator.kaczka.item.PowertokenItem;
 import net.mcreator.kaczka.item.NitrogenItem;
 import net.mcreator.kaczka.item.JadeitegemItem;
 import net.mcreator.kaczka.item.JadeitechiselItem;
+import net.mcreator.kaczka.item.HeatTransmissionItem;
 import net.mcreator.kaczka.item.GildedclaypieceItem;
 import net.mcreator.kaczka.item.ForavaraItem;
 import net.mcreator.kaczka.item.FireworksItem;
@@ -117,6 +119,8 @@ public class KaczkaModItems {
 	public static final RegistryObject<Item> NITROGEN_BUCKET = REGISTRY.register("nitrogen_bucket", () -> new NitrogenItem());
 	public static final RegistryObject<Item> FIREWORKS = REGISTRY.register("fireworks", () -> new FireworksItem());
 	public static final RegistryObject<Item> CESIUMAMPULE = REGISTRY.register("cesiumampule", () -> new CesiumampuleItem());
+	public static final RegistryObject<Item> HEAT_TRANSMISSION = REGISTRY.register("heat_transmission", () -> new HeatTransmissionItem());
+	public static final RegistryObject<Item> PRELUDE_MAN_SPAWN_EGG = REGISTRY.register("prelude_man_spawn_egg", () -> new ForgeSpawnEggItem(KaczkaModEntities.PRELUDE_MAN, -16777012, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -29,7 +29,7 @@ public class VoidMessengerItem extends Item {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		VoidMessengerLivingEntityIsHitWithItemProcedure.execute(entity.level(), entity);
+		VoidMessengerLivingEntityIsHitWithItemProcedure.execute(entity.level(), entity, sourceentity);
 		return retval;
 	}
 }
