@@ -8,7 +8,7 @@
     "texture": "jadeite_block_umi_fix",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Jadeite chisel",
+    "name": "Jadeite Chisel",
     "specialInformation": {
       "fixedValue": [
         "It helps you brake blocks you otherwise dont wanna break"
@@ -24,6 +24,9 @@
     "damageVsEntity": 4.0,
     "usageCount": 100,
     "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "CUSTOM:Jadeitegem"

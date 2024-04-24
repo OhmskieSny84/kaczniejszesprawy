@@ -61,6 +61,12 @@ public class KaczkaModTabs {
 			})
 
 					.build());
+	public static final RegistryObject<CreativeModeTab> HYPER = REGISTRY.register("hyper",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.kaczka.hyper")).icon(() -> new ItemStack(Blocks.SOUL_FIRE)).displayItems((parameters, tabData) -> {
+				tabData.accept(KaczkaModBlocks.CAVESTONE.get().asItem());
+			})
+
+					.build());
 	public static final RegistryObject<CreativeModeTab> STRUCTURES = REGISTRY.register("structures",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.kaczka.structures")).icon(() -> new ItemStack(Blocks.BIRCH_LOG)).displayItems((parameters, tabData) -> {
 				tabData.accept(KaczkaModBlocks.DUSTYHOUSESPAWN.get().asItem());
