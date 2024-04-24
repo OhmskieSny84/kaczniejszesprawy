@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:block/kamyczki_--_kopia_2",
+    "up": "kaczka:block/kamyczki_--_kopia_2",
+    "north": "kaczka:block/kamyczki_--_kopia_2",
+    "east": "kaczka:block/kamyczki_--_kopia_2",
+    "south": "kaczka:block/kamyczki_--_kopia_2",
+    "west": "kaczka:block/kamyczki_--_kopia_2",
+    "particle": "kaczka:block/kamyczki_--_kopia_2"
+  },
+  "render_type": "solid"
+}

@@ -66,6 +66,7 @@ import net.mcreator.kaczka.block.DeepstoneBlock;
 import net.mcreator.kaczka.block.DeepShardBlockBlock;
 import net.mcreator.kaczka.block.DeepIronBlockBlock;
 import net.mcreator.kaczka.block.CryingglowstoneBlock;
+import net.mcreator.kaczka.block.CavestoneBlock;
 import net.mcreator.kaczka.block.BlockOfDepthBlock;
 import net.mcreator.kaczka.block.AetherportalspawnBlock;
 import net.mcreator.kaczka.KaczkaMod;
@@ -130,6 +131,7 @@ public class KaczkaModBlocks {
 	public static final RegistryObject<Block> JADEITEGEMBLOCK = REGISTRY.register("jadeitegemblock", () -> new JadeitegemblockBlock());
 	public static final RegistryObject<Block> JADEITEGEMORE = REGISTRY.register("jadeitegemore", () -> new JadeitegemoreBlock());
 	public static final RegistryObject<Block> NITROGEN = REGISTRY.register("nitrogen", () -> new NitrogenBlock());
+	public static final RegistryObject<Block> CAVESTONE = REGISTRY.register("cavestone", () -> new CavestoneBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

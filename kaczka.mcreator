@@ -9,13 +9,13 @@
       "registry_name": "gildedclay",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/gildedclay.json",
-          "src/main/resources/data/kaczka/forge/biome_modifier/gildedclay_biome_modifier.json",
           "src/main/resources/assets/kaczka/blockstates/gildedclay.json",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/gildedclay.json",
           "src/main/java/net/mcreator/kaczka/block/GildedclayBlock.java",
+          "src/main/resources/data/kaczka/forge/biome_modifier/gildedclay_biome_modifier.json",
           "src/main/resources/data/kaczka/worldgen/configured_feature/gildedclay.json",
           "src/main/resources/assets/kaczka/models/block/gildedclay.json",
+          "src/main/resources/assets/kaczka/models/item/gildedclay.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/gildedclay.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/gildedclay.json"
         ]
       }
@@ -40,8 +40,8 @@
       "registry_name": "gildedclaypiece",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/item/GildedclaypieceItem.java",
-          "src/main/resources/assets/kaczka/models/item/gildedclaypiece.json"
+          "src/main/resources/assets/kaczka/models/item/gildedclaypiece.json",
+          "src/main/java/net/mcreator/kaczka/item/GildedclaypieceItem.java"
         ]
       }
     },
@@ -103,10 +103,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/kaczka/block/GoldenbricksBlock.java",
-          "src/main/resources/data/kaczka/loot_tables/blocks/goldenbricks.json",
-          "src/main/resources/assets/kaczka/models/item/goldenbricks.json",
           "src/main/resources/assets/kaczka/blockstates/goldenbricks.json",
-          "src/main/resources/assets/kaczka/models/block/goldenbricks.json"
+          "src/main/resources/data/kaczka/loot_tables/blocks/goldenbricks.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbricks.json",
+          "src/main/resources/assets/kaczka/models/item/goldenbricks.json"
         ]
       }
     },
@@ -145,14 +145,14 @@
       "registry_name": "netherdiamondore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/kaczka/models/block/netherdiamondore.json",
           "src/main/resources/data/kaczka/worldgen/configured_feature/netherdiamondore.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/netherdiamondore.json",
-          "src/main/resources/assets/kaczka/blockstates/netherdiamondore.json",
-          "src/main/resources/data/kaczka/forge/biome_modifier/netherdiamondore_biome_modifier.json",
           "src/main/resources/assets/kaczka/models/item/netherdiamondore.json",
+          "src/main/resources/assets/kaczka/blockstates/netherdiamondore.json",
           "src/main/resources/data/kaczka/worldgen/placed_feature/netherdiamondore.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/netherdiamondore.json",
           "src/main/java/net/mcreator/kaczka/block/NetherdiamondoreBlock.java",
-          "src/main/resources/assets/kaczka/models/block/netherdiamondore.json"
+          "src/main/resources/data/kaczka/forge/biome_modifier/netherdiamondore_biome_modifier.json"
         ]
       }
     },
@@ -222,8 +222,8 @@
       "registry_name": "ruby",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/item/RubyItem.java",
-          "src/main/resources/assets/kaczka/models/item/ruby.json"
+          "src/main/resources/assets/kaczka/models/item/ruby.json",
+          "src/main/java/net/mcreator/kaczka/item/RubyItem.java"
         ]
       }
     },
@@ -272,12 +272,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/kaczka/loot_tables/blocks/rubyore.json",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/rubyore.json",
+          "src/main/resources/assets/kaczka/models/item/rubyore.json",
           "src/main/resources/data/kaczka/forge/biome_modifier/rubyore_biome_modifier.json",
           "src/main/resources/data/kaczka/worldgen/configured_feature/rubyore.json",
-          "src/main/resources/assets/kaczka/blockstates/rubyore.json",
-          "src/main/resources/assets/kaczka/models/item/rubyore.json",
           "src/main/java/net/mcreator/kaczka/block/RubyoreBlock.java",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/rubyore.json",
+          "src/main/resources/assets/kaczka/blockstates/rubyore.json",
           "src/main/resources/assets/kaczka/models/block/rubyore.json"
         ]
       }
@@ -318,10 +318,10 @@
       "registry_name": "rubyprismarine",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/blockstates/rubyprismarine.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/rubyprismarine.json",
           "src/main/resources/assets/kaczka/models/item/rubyprismarine.json",
           "src/main/java/net/mcreator/kaczka/block/RubyprismarineBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubyprismarine.json",
+          "src/main/resources/assets/kaczka/blockstates/rubyprismarine.json",
           "src/main/resources/assets/kaczka/models/block/rubyprismarine.json"
         ]
       }
@@ -348,11 +348,11 @@
       "registry_name": "rubyblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/blockstates/rubyblock.json",
-          "src/main/java/net/mcreator/kaczka/block/RubyblockBlock.java",
+          "src/main/resources/assets/kaczka/models/item/rubyblock.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/rubyblock.json",
           "src/main/resources/assets/kaczka/models/block/rubyblock.json",
-          "src/main/resources/assets/kaczka/models/item/rubyblock.json"
+          "src/main/resources/assets/kaczka/blockstates/rubyblock.json",
+          "src/main/java/net/mcreator/kaczka/block/RubyblockBlock.java"
         ]
       }
     },
@@ -365,13 +365,13 @@
       "registry_name": "rubyprismarinestairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/loot_tables/blocks/rubyprismarinestairs.json",
-          "src/main/resources/assets/kaczka/models/block/rubyprismarinestairs.json",
-          "src/main/resources/assets/kaczka/models/item/rubyprismarinestairs.json",
-          "src/main/resources/assets/kaczka/models/block/rubyprismarinestairs_inner.json",
           "src/main/resources/assets/kaczka/blockstates/rubyprismarinestairs.json",
           "src/main/java/net/mcreator/kaczka/block/RubyprismarinestairsBlock.java",
-          "src/main/resources/assets/kaczka/models/block/rubyprismarinestairs_outer.json"
+          "src/main/resources/assets/kaczka/models/item/rubyprismarinestairs.json",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarinestairs.json",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarinestairs_outer.json",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarinestairs_inner.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubyprismarinestairs.json"
         ]
       }
     },
@@ -385,10 +385,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/kaczka/blockstates/rubyprismarineslab.json",
+          "src/main/resources/assets/kaczka/models/block/rubyprismarineslab.json",
           "src/main/resources/assets/kaczka/models/item/rubyprismarineslab.json",
           "src/main/resources/assets/kaczka/models/block/rubyprismarineslab_top.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/rubyprismarineslab.json",
-          "src/main/resources/assets/kaczka/models/block/rubyprismarineslab.json",
           "src/main/java/net/mcreator/kaczka/block/RubyprismarineslabBlock.java",
           "src/main/resources/assets/kaczka/models/block/rubyprismarineslab_full.json"
         ]
@@ -403,13 +403,13 @@
       "registry_name": "goldenbrickstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/block/goldenbrickstairs_inner.json",
-          "src/main/resources/assets/kaczka/models/item/goldenbrickstairs.json",
           "src/main/resources/assets/kaczka/models/block/goldenbrickstairs.json",
-          "src/main/java/net/mcreator/kaczka/block/GoldenbrickstairsBlock.java",
-          "src/main/resources/data/kaczka/loot_tables/blocks/goldenbrickstairs.json",
+          "src/main/resources/assets/kaczka/models/item/goldenbrickstairs.json",
+          "src/main/resources/assets/kaczka/blockstates/goldenbrickstairs.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbrickstairs_inner.json",
           "src/main/resources/assets/kaczka/models/block/goldenbrickstairs_outer.json",
-          "src/main/resources/assets/kaczka/blockstates/goldenbrickstairs.json"
+          "src/main/java/net/mcreator/kaczka/block/GoldenbrickstairsBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/goldenbrickstairs.json"
         ]
       }
     },
@@ -422,13 +422,13 @@
       "registry_name": "goldenbrickslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/goldenbrickslab.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbrickslab_full.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbrickslab_top.json",
+          "src/main/resources/assets/kaczka/models/block/goldenbrickslab.json",
           "src/main/java/net/mcreator/kaczka/block/GoldenbrickslabBlock.java",
           "src/main/resources/assets/kaczka/blockstates/goldenbrickslab.json",
-          "src/main/resources/assets/kaczka/models/block/goldenbrickslab_top.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/goldenbrickslab.json",
-          "src/main/resources/assets/kaczka/models/block/goldenbrickslab.json",
-          "src/main/resources/assets/kaczka/models/block/goldenbrickslab_full.json"
+          "src/main/resources/assets/kaczka/models/item/goldenbrickslab.json"
         ]
       }
     },
@@ -623,11 +623,11 @@
       "registry_name": "rubylantern",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/rubylantern.json",
-          "src/main/java/net/mcreator/kaczka/block/RubylanternBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/rubylantern.json",
           "src/main/resources/assets/kaczka/blockstates/rubylantern.json",
           "src/main/resources/assets/kaczka/models/block/rubylantern.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/rubylantern.json"
+          "src/main/java/net/mcreator/kaczka/block/RubylanternBlock.java",
+          "src/main/resources/assets/kaczka/models/item/rubylantern.json"
         ]
       }
     },
@@ -711,8 +711,8 @@
         "eb": false,
         "ec": true,
         "files": [
-          "src/main/resources/assets/kaczka/models/item/rubyneckle_chestplate.json",
-          "src/main/java/net/mcreator/kaczka/item/RubyneckleItem.java"
+          "src/main/java/net/mcreator/kaczka/item/RubyneckleItem.java",
+          "src/main/resources/assets/kaczka/models/item/rubyneckle_chestplate.json"
         ]
       }
     },
@@ -738,13 +738,13 @@
       "registry_name": "rubyflower",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/RubyflowerBlock.java",
-          "src/main/resources/assets/kaczka/models/item/rubyflower.json",
-          "src/main/resources/assets/kaczka/blockstates/rubyflower.json",
           "src/main/resources/assets/kaczka/models/block/rubyflower.json",
           "src/main/resources/data/kaczka/worldgen/configured_feature/rubyflower.json",
-          "src/main/resources/data/kaczka/forge/biome_modifier/rubyflower_biome_modifier.json",
           "src/main/resources/data/kaczka/worldgen/placed_feature/rubyflower.json",
+          "src/main/java/net/mcreator/kaczka/block/RubyflowerBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/rubyflower.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/rubyflower_biome_modifier.json",
+          "src/main/resources/assets/kaczka/models/item/rubyflower.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/rubyflower.json"
         ]
       }
@@ -784,10 +784,10 @@
       "registry_name": "rubycrystal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/rubycrystal.json",
-          "src/main/java/net/mcreator/kaczka/block/RubycrystalBlock.java",
-          "src/main/resources/assets/kaczka/models/block/rubycrystal.json",
           "src/main/resources/assets/kaczka/blockstates/rubycrystal.json",
+          "src/main/resources/assets/kaczka/models/item/rubycrystal.json",
+          "src/main/resources/assets/kaczka/models/block/rubycrystal.json",
+          "src/main/java/net/mcreator/kaczka/block/RubycrystalBlock.java",
           "src/main/resources/data/kaczka/loot_tables/blocks/rubycrystal.json"
         ]
       }
@@ -801,14 +801,14 @@
       "registry_name": "jadeitegravelore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/JadeitegraveloreBlock.java",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/jadeitegravelore.json",
-          "src/main/resources/data/kaczka/forge/biome_modifier/jadeitegravelore_biome_modifier.json",
-          "src/main/resources/data/kaczka/worldgen/configured_feature/jadeitegravelore.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/jadeitegravelore.json",
           "src/main/resources/assets/kaczka/models/item/jadeitegravelore.json",
           "src/main/resources/assets/kaczka/blockstates/jadeitegravelore.json",
-          "src/main/resources/assets/kaczka/models/block/jadeitegravelore.json"
+          "src/main/resources/data/kaczka/loot_tables/blocks/jadeitegravelore.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/jadeitegravelore.json",
+          "src/main/resources/assets/kaczka/models/block/jadeitegravelore.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/jadeitegravelore.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/jadeitegravelore_biome_modifier.json",
+          "src/main/java/net/mcreator/kaczka/block/JadeitegraveloreBlock.java"
         ]
       }
     },
@@ -821,11 +821,11 @@
       "registry_name": "jadeiteblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/block/jadeiteblock.json",
-          "src/main/java/net/mcreator/kaczka/block/JadeiteblockBlock.java",
-          "src/main/resources/assets/kaczka/blockstates/jadeiteblock.json",
+          "src/main/resources/assets/kaczka/models/item/jadeiteblock.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/jadeiteblock.json",
-          "src/main/resources/assets/kaczka/models/item/jadeiteblock.json"
+          "src/main/java/net/mcreator/kaczka/block/JadeiteblockBlock.java",
+          "src/main/resources/assets/kaczka/models/block/jadeiteblock.json",
+          "src/main/resources/assets/kaczka/blockstates/jadeiteblock.json"
         ]
       }
     },
@@ -883,11 +883,11 @@
       "registry_name": "deepstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/block/deepstone.json",
-          "src/main/resources/assets/kaczka/blockstates/deepstone.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/deepstone.json",
           "src/main/java/net/mcreator/kaczka/block/DeepstoneBlock.java",
-          "src/main/resources/assets/kaczka/models/item/deepstone.json"
+          "src/main/resources/data/kaczka/loot_tables/blocks/deepstone.json",
+          "src/main/resources/assets/kaczka/models/item/deepstone.json",
+          "src/main/resources/assets/kaczka/blockstates/deepstone.json",
+          "src/main/resources/assets/kaczka/models/block/deepstone.json"
         ]
       }
     },
@@ -913,8 +913,8 @@
       "registry_name": "deep_shard",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/item/DeepShardItem.java",
-          "src/main/resources/assets/kaczka/models/item/deep_shard.json"
+          "src/main/resources/assets/kaczka/models/item/deep_shard.json",
+          "src/main/java/net/mcreator/kaczka/item/DeepShardItem.java"
         ]
       }
     },
@@ -955,10 +955,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/kaczka/models/item/deep_iron_block.json",
-          "src/main/java/net/mcreator/kaczka/block/DeepIronBlockBlock.java",
-          "src/main/resources/assets/kaczka/blockstates/deep_iron_block.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/deep_iron_block.json",
           "src/main/resources/assets/kaczka/models/block/deep_iron_block.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/deep_iron_block.json"
+          "src/main/java/net/mcreator/kaczka/block/DeepIronBlockBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/deep_iron_block.json"
         ]
       }
     },
@@ -990,8 +990,8 @@
       "registry_name": "deep_iron_blade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/deep_iron_blade.json",
-          "src/main/java/net/mcreator/kaczka/item/DeepIronBladeItem.java"
+          "src/main/java/net/mcreator/kaczka/item/DeepIronBladeItem.java",
+          "src/main/resources/assets/kaczka/models/item/deep_iron_blade.json"
         ]
       }
     },
@@ -1030,8 +1030,8 @@
       "registry_name": "dust",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/item/DustItem.java",
-          "src/main/resources/assets/kaczka/models/item/dust.json"
+          "src/main/resources/assets/kaczka/models/item/dust.json",
+          "src/main/java/net/mcreator/kaczka/item/DustItem.java"
         ]
       }
     },
@@ -1044,10 +1044,10 @@
       "registry_name": "dustyobsidian",
       "metadata": {
         "files": [
+          "src/main/resources/assets/kaczka/models/item/dustyobsidian.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyobsidian.json",
           "src/main/resources/assets/kaczka/blockstates/dustyobsidian.json",
           "src/main/resources/assets/kaczka/models/block/dustyobsidian.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/dustyobsidian.json",
-          "src/main/resources/assets/kaczka/models/item/dustyobsidian.json",
           "src/main/java/net/mcreator/kaczka/block/DustyobsidianBlock.java"
         ]
       }
@@ -1074,8 +1074,8 @@
       "registry_name": "depth",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/item/DepthItem.java",
-          "src/main/resources/assets/kaczka/models/item/depth.json"
+          "src/main/resources/assets/kaczka/models/item/depth.json",
+          "src/main/java/net/mcreator/kaczka/item/DepthItem.java"
         ]
       }
     },
@@ -1088,11 +1088,11 @@
       "registry_name": "block_of_depth",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/loot_tables/blocks/block_of_depth.json",
+          "src/main/resources/assets/kaczka/models/item/block_of_depth.json",
           "src/main/resources/assets/kaczka/models/block/block_of_depth.json",
           "src/main/java/net/mcreator/kaczka/block/BlockOfDepthBlock.java",
-          "src/main/resources/assets/kaczka/models/item/block_of_depth.json",
-          "src/main/resources/assets/kaczka/blockstates/block_of_depth.json"
+          "src/main/resources/assets/kaczka/blockstates/block_of_depth.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/block_of_depth.json"
         ]
       }
     },
@@ -1119,10 +1119,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/kaczka/block/DeepShardBlockBlock.java",
-          "src/main/resources/assets/kaczka/models/block/deep_shard_block.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/deep_shard_block.json",
           "src/main/resources/assets/kaczka/models/item/deep_shard_block.json",
-          "src/main/resources/assets/kaczka/blockstates/deep_shard_block.json"
+          "src/main/resources/assets/kaczka/blockstates/deep_shard_block.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/deep_shard_block.json",
+          "src/main/resources/assets/kaczka/models/block/deep_shard_block.json"
         ]
       }
     },
@@ -1200,9 +1200,9 @@
       "registry_name": "depth_extractor_interface",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/client/gui/DepthExtractorInterfaceScreen.java",
+          "src/main/java/net/mcreator/kaczka/world/inventory/DepthExtractorInterfaceMenu.java",
           "src/main/java/net/mcreator/kaczka/network/DepthExtractorInterfaceButtonMessage.java",
-          "src/main/java/net/mcreator/kaczka/world/inventory/DepthExtractorInterfaceMenu.java"
+          "src/main/java/net/mcreator/kaczka/client/gui/DepthExtractorInterfaceScreen.java"
         ]
       }
     },
@@ -1269,10 +1269,10 @@
       "registry_name": "depth_extractor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/DepthExtractorBlock.java",
-          "src/main/resources/assets/kaczka/models/item/depth_extractor.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/depth_extractor.json",
           "src/main/resources/assets/kaczka/blockstates/depth_extractor.json",
+          "src/main/java/net/mcreator/kaczka/block/DepthExtractorBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/depth_extractor.json",
+          "src/main/resources/assets/kaczka/models/item/depth_extractor.json",
           "src/main/resources/assets/kaczka/models/block/depth_extractor.json"
         ]
       }
@@ -1299,11 +1299,11 @@
       "registry_name": "dustydirt",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/loot_tables/blocks/dustydirt.json",
-          "src/main/java/net/mcreator/kaczka/block/DustydirtBlock.java",
-          "src/main/resources/assets/kaczka/models/block/dustydirt.json",
           "src/main/resources/assets/kaczka/blockstates/dustydirt.json",
-          "src/main/resources/assets/kaczka/models/item/dustydirt.json"
+          "src/main/resources/assets/kaczka/models/item/dustydirt.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustydirt.json",
+          "src/main/resources/assets/kaczka/models/block/dustydirt.json",
+          "src/main/java/net/mcreator/kaczka/block/DustydirtBlock.java"
         ]
       }
     },
@@ -1316,11 +1316,11 @@
       "registry_name": "dustygrass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/dustygrass.json",
-          "src/main/resources/assets/kaczka/blockstates/dustygrass.json",
+          "src/main/resources/assets/kaczka/models/block/dustygrass.json",
           "src/main/java/net/mcreator/kaczka/block/DustygrassBlock.java",
-          "src/main/resources/data/kaczka/loot_tables/blocks/dustygrass.json",
-          "src/main/resources/assets/kaczka/models/block/dustygrass.json"
+          "src/main/resources/assets/kaczka/blockstates/dustygrass.json",
+          "src/main/resources/assets/kaczka/models/item/dustygrass.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustygrass.json"
         ]
       }
     },
@@ -1368,14 +1368,14 @@
       "registry_name": "toretzan_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/kaczka/worldgen/placed_feature/toretzan_ore.json",
+          "src/main/java/net/mcreator/kaczka/block/ToretzanOreBlock.java",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/toretzan_ore.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/toretzan_ore.json",
           "src/main/resources/assets/kaczka/models/item/toretzan_ore.json",
           "src/main/resources/data/kaczka/forge/biome_modifier/toretzan_ore_biome_modifier.json",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/toretzan_ore.json",
-          "src/main/resources/data/kaczka/worldgen/configured_feature/toretzan_ore.json",
-          "src/main/java/net/mcreator/kaczka/block/ToretzanOreBlock.java",
-          "src/main/resources/data/kaczka/loot_tables/blocks/toretzan_ore.json",
-          "src/main/resources/assets/kaczka/blockstates/toretzan_ore.json",
-          "src/main/resources/assets/kaczka/models/block/toretzan_ore.json"
+          "src/main/resources/assets/kaczka/models/block/toretzan_ore.json",
+          "src/main/resources/assets/kaczka/blockstates/toretzan_ore.json"
         ]
       }
     },
@@ -1402,14 +1402,14 @@
       "registry_name": "foravara_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/blockstates/foravara_ore.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/foravara_ore.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/foravara_ore.json",
           "src/main/resources/assets/kaczka/models/item/foravara_ore.json",
-          "src/main/resources/data/kaczka/forge/biome_modifier/foravara_ore_biome_modifier.json",
-          "src/main/resources/data/kaczka/worldgen/configured_feature/foravara_ore.json",
-          "src/main/resources/assets/kaczka/models/block/foravara_ore.json",
           "src/main/java/net/mcreator/kaczka/block/ForavaraOreBlock.java",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/foravara_ore.json"
+          "src/main/resources/data/kaczka/forge/biome_modifier/foravara_ore_biome_modifier.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/foravara_ore.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/foravara_ore.json",
+          "src/main/resources/assets/kaczka/blockstates/foravara_ore.json",
+          "src/main/resources/assets/kaczka/models/block/foravara_ore.json"
         ]
       }
     },
@@ -1449,10 +1449,10 @@
       "registry_name": "dustyplanks",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/kaczka/block/DustyplanksBlock.java",
+          "src/main/resources/assets/kaczka/models/item/dustyplanks.json",
           "src/main/resources/assets/kaczka/models/block/dustyplanks.json",
           "src/main/resources/assets/kaczka/blockstates/dustyplanks.json",
-          "src/main/resources/assets/kaczka/models/item/dustyplanks.json",
-          "src/main/java/net/mcreator/kaczka/block/DustyplanksBlock.java",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustyplanks.json"
         ]
       }
@@ -1466,11 +1466,11 @@
       "registry_name": "dustylog",
       "metadata": {
         "files": [
+          "src/main/resources/assets/kaczka/blockstates/dustylog.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustylog.json",
           "src/main/java/net/mcreator/kaczka/block/DustylogBlock.java",
           "src/main/resources/assets/kaczka/models/block/dustylog.json",
-          "src/main/resources/assets/kaczka/models/item/dustylog.json",
-          "src/main/resources/assets/kaczka/blockstates/dustylog.json"
+          "src/main/resources/assets/kaczka/models/item/dustylog.json"
         ]
       }
     },
@@ -1519,10 +1519,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/kaczka/block/DustyleavesBlock.java",
-          "src/main/resources/assets/kaczka/blockstates/dustyleaves.json",
+          "src/main/resources/assets/kaczka/models/item/dustyleaves.json",
           "src/main/resources/assets/kaczka/models/block/dustyleaves.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/dustyleaves.json",
-          "src/main/resources/assets/kaczka/models/item/dustyleaves.json"
+          "src/main/resources/assets/kaczka/blockstates/dustyleaves.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyleaves.json"
         ]
       }
     },
@@ -1550,17 +1550,17 @@
       "metadata": {
         "ep": true,
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/DustydimensionPortalBlock.java",
-          "src/main/resources/data/kaczka/dimension_type/dustydimension.json",
-          "src/main/resources/assets/kaczka/models/block/dustydimension_portal_ew.json",
+          "src/main/resources/data/kaczka/dimension/dustydimension.json",
           "src/main/java/net/mcreator/kaczka/item/DustydimensionItem.java",
-          "src/main/resources/assets/kaczka/models/item/dustydimension.json",
+          "src/main/resources/data/kaczka/dimension_type/dustydimension.json",
+          "src/main/java/net/mcreator/kaczka/block/DustydimensionPortalBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustydimension_portal_ew.json",
           "src/main/resources/assets/kaczka/models/block/dustydimension_portal_ns.json",
-          "src/main/java/net/mcreator/kaczka/world/teleporter/DustydimensionPortalShape.java",
-          "src/main/resources/assets/kaczka/blockstates/dustydimension_portal.json",
-          "src/main/java/net/mcreator/kaczka/world/dimension/DustydimensionDimension.java",
           "src/main/java/net/mcreator/kaczka/world/teleporter/DustydimensionTeleporter.java",
-          "src/main/resources/data/kaczka/dimension/dustydimension.json"
+          "src/main/resources/assets/kaczka/blockstates/dustydimension_portal.json",
+          "src/main/resources/assets/kaczka/models/item/dustydimension.json",
+          "src/main/java/net/mcreator/kaczka/world/dimension/DustydimensionDimension.java",
+          "src/main/java/net/mcreator/kaczka/world/teleporter/DustydimensionPortalShape.java"
         ]
       }
     },
@@ -1586,13 +1586,13 @@
       "registry_name": "dustystairs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/DustystairsBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustystairs.json",
           "src/main/resources/assets/kaczka/models/item/dustystairs.json",
-          "src/main/resources/assets/kaczka/blockstates/dustystairs.json",
           "src/main/resources/assets/kaczka/models/block/dustystairs_inner.json",
           "src/main/resources/assets/kaczka/models/block/dustystairs.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/dustystairs.json",
-          "src/main/resources/assets/kaczka/models/block/dustystairs_outer.json"
+          "src/main/resources/assets/kaczka/models/block/dustystairs_outer.json",
+          "src/main/java/net/mcreator/kaczka/block/DustystairsBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/dustystairs.json"
         ]
       }
     },
@@ -1605,13 +1605,13 @@
       "registry_name": "dustyslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/blockstates/dustyslab.json",
-          "src/main/resources/assets/kaczka/models/item/dustyslab.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyslabBlock.java",
           "src/main/resources/assets/kaczka/models/block/dustyslab.json",
+          "src/main/resources/assets/kaczka/blockstates/dustyslab.json",
           "src/main/resources/assets/kaczka/models/block/dustyslab_top.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/dustyslab.json",
           "src/main/resources/assets/kaczka/models/block/dustyslab_full.json",
-          "src/main/java/net/mcreator/kaczka/block/DustyslabBlock.java"
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyslab.json",
+          "src/main/resources/assets/kaczka/models/item/dustyslab.json"
         ]
       }
     },
@@ -1703,10 +1703,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/kaczka/models/block/dustysapling.json",
-          "src/main/resources/assets/kaczka/models/item/dustysapling.json",
-          "src/main/java/net/mcreator/kaczka/block/DustysaplingBlock.java",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustysapling.json",
-          "src/main/resources/assets/kaczka/blockstates/dustysapling.json"
+          "src/main/resources/assets/kaczka/models/item/dustysapling.json",
+          "src/main/resources/assets/kaczka/blockstates/dustysapling.json",
+          "src/main/java/net/mcreator/kaczka/block/DustysaplingBlock.java"
         ]
       }
     },
@@ -1912,9 +1912,9 @@
       "registry_name": "dustywoods",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/worldgen/configured_feature/dustywoods_tree.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustywoods_tree.json",
           "src/main/resources/data/kaczka/worldgen/biome/dustywoods.json",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/dustywoods_tree.json"
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustywoods_tree.json"
         ]
       }
     },
@@ -1927,8 +1927,8 @@
       "registry_name": "dustycrafting",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/world/inventory/DustycraftingMenu.java",
-          "src/main/java/net/mcreator/kaczka/client/gui/DustycraftingScreen.java"
+          "src/main/java/net/mcreator/kaczka/client/gui/DustycraftingScreen.java",
+          "src/main/java/net/mcreator/kaczka/world/inventory/DustycraftingMenu.java"
         ]
       }
     },
@@ -1943,9 +1943,9 @@
         "files": [
           "src/main/java/net/mcreator/kaczka/block/DustycraftingtableBlock.java",
           "src/main/resources/assets/kaczka/models/item/dustycraftingtable.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/dustycraftingtable.json",
+          "src/main/resources/assets/kaczka/models/block/dustycraftingtable.json",
           "src/main/resources/assets/kaczka/blockstates/dustycraftingtable.json",
-          "src/main/resources/assets/kaczka/models/block/dustycraftingtable.json"
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustycraftingtable.json"
         ]
       }
     },
@@ -2006,11 +2006,11 @@
       "registry_name": "dustystone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/DustystoneBlock.java",
-          "src/main/resources/assets/kaczka/models/block/dustystone.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/dustystone.json",
+          "src/main/resources/assets/kaczka/models/item/dustystone.json",
           "src/main/resources/assets/kaczka/blockstates/dustystone.json",
-          "src/main/resources/assets/kaczka/models/item/dustystone.json"
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustystone.json",
+          "src/main/java/net/mcreator/kaczka/block/DustystoneBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustystone.json"
         ]
       }
     },
@@ -2037,10 +2037,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/kaczka/block/DustycobblestoneBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustycobblestone.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustycobblestone.json",
           "src/main/resources/assets/kaczka/models/item/dustycobblestone.json",
-          "src/main/resources/assets/kaczka/blockstates/dustycobblestone.json",
-          "src/main/resources/assets/kaczka/models/block/dustycobblestone.json"
+          "src/main/resources/assets/kaczka/blockstates/dustycobblestone.json"
         ]
       }
     },
@@ -2053,8 +2053,8 @@
       "registry_name": "dustparticle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/particles/dustparticle.json",
-          "src/main/java/net/mcreator/kaczka/client/particle/DustparticleParticle.java"
+          "src/main/java/net/mcreator/kaczka/client/particle/DustparticleParticle.java",
+          "src/main/resources/assets/kaczka/particles/dustparticle.json"
         ]
       }
     },
@@ -2111,11 +2111,11 @@
       "registry_name": "dustymoss",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/DustymossBlock.java",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustymoss.json",
           "src/main/resources/assets/kaczka/models/item/dustymoss.json",
-          "src/main/resources/assets/kaczka/models/block/dustymoss.json",
-          "src/main/resources/assets/kaczka/blockstates/dustymoss.json"
+          "src/main/resources/assets/kaczka/blockstates/dustymoss.json",
+          "src/main/java/net/mcreator/kaczka/block/DustymossBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustymoss.json"
         ]
       }
     },
@@ -2211,11 +2211,11 @@
       "registry_name": "dustynetherrack",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/dustynetherrack.json",
-          "src/main/resources/assets/kaczka/blockstates/dustynetherrack.json",
-          "src/main/java/net/mcreator/kaczka/block/DustynetherrackBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustynetherrack.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustynetherrack.json",
-          "src/main/resources/assets/kaczka/models/block/dustynetherrack.json"
+          "src/main/resources/assets/kaczka/models/item/dustynetherrack.json",
+          "src/main/java/net/mcreator/kaczka/block/DustynetherrackBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/dustynetherrack.json"
         ]
       }
     },
@@ -2228,11 +2228,11 @@
       "registry_name": "dustyglowstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/blockstates/dustyglowstone.json",
-          "src/main/resources/assets/kaczka/models/item/dustyglowstone.json",
           "src/main/java/net/mcreator/kaczka/block/DustyglowstoneBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyglowstone.json",
+          "src/main/resources/assets/kaczka/blockstates/dustyglowstone.json",
           "src/main/resources/assets/kaczka/models/block/dustyglowstone.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/dustyglowstone.json"
+          "src/main/resources/assets/kaczka/models/item/dustyglowstone.json"
         ]
       }
     },
@@ -2245,14 +2245,14 @@
       "registry_name": "dustyrubyore",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/worldgen/configured_feature/dustyrubyore.json",
           "src/main/resources/assets/kaczka/models/item/dustyrubyore.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustyrubyore.json",
           "src/main/resources/assets/kaczka/blockstates/dustyrubyore.json",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/dustyrubyore.json",
-          "src/main/java/net/mcreator/kaczka/block/DustyrubyoreBlock.java",
           "src/main/resources/data/kaczka/forge/biome_modifier/dustyrubyore_biome_modifier.json",
-          "src/main/resources/assets/kaczka/models/block/dustyrubyore.json"
+          "src/main/resources/assets/kaczka/models/block/dustyrubyore.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyrubyoreBlock.java",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustyrubyore.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustyrubyore.json"
         ]
       }
     },
@@ -2267,8 +2267,8 @@
         "files": [
           "src/main/resources/assets/kaczka/models/item/cryingglowstone.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/cryingglowstone.json",
-          "src/main/resources/assets/kaczka/blockstates/cryingglowstone.json",
           "src/main/resources/assets/kaczka/models/block/cryingglowstone.json",
+          "src/main/resources/assets/kaczka/blockstates/cryingglowstone.json",
           "src/main/java/net/mcreator/kaczka/block/CryingglowstoneBlock.java"
         ]
       }
@@ -2282,10 +2282,10 @@
       "registry_name": "the",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/block/the.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/the.json",
           "src/main/resources/assets/kaczka/blockstates/the.json",
           "src/main/java/net/mcreator/kaczka/block/TheBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/the.json",
+          "src/main/resources/assets/kaczka/models/block/the.json",
           "src/main/resources/assets/kaczka/models/item/the.json"
         ]
       }
@@ -2330,10 +2330,10 @@
       "registry_name": "dustyhousespawn",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/dustyhousespawn.json",
+          "src/main/resources/assets/kaczka/models/block/dustyhousespawn.json",
           "src/main/resources/assets/kaczka/blockstates/dustyhousespawn.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustyhousespawn.json",
-          "src/main/resources/assets/kaczka/models/block/dustyhousespawn.json",
+          "src/main/resources/assets/kaczka/models/item/dustyhousespawn.json",
           "src/main/java/net/mcreator/kaczka/block/DustyhousespawnBlock.java"
         ]
       }
@@ -2395,14 +2395,14 @@
       "registry_name": "sapphireore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/SapphireoreBlock.java",
-          "src/main/resources/assets/kaczka/models/block/sapphireore.json",
-          "src/main/resources/data/kaczka/worldgen/configured_feature/sapphireore.json",
           "src/main/resources/assets/kaczka/blockstates/sapphireore.json",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/sapphireore.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/sapphireore.json",
           "src/main/resources/assets/kaczka/models/item/sapphireore.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/sapphireore.json",
-          "src/main/resources/data/kaczka/forge/biome_modifier/sapphireore_biome_modifier.json"
+          "src/main/resources/assets/kaczka/models/block/sapphireore.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/sapphireore.json",
+          "src/main/java/net/mcreator/kaczka/block/SapphireoreBlock.java",
+          "src/main/resources/data/kaczka/forge/biome_modifier/sapphireore_biome_modifier.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/sapphireore.json"
         ]
       }
     },
@@ -2415,8 +2415,8 @@
       "registry_name": "sapphire",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/sapphire.json",
-          "src/main/java/net/mcreator/kaczka/item/SapphireItem.java"
+          "src/main/java/net/mcreator/kaczka/item/SapphireItem.java",
+          "src/main/resources/assets/kaczka/models/item/sapphire.json"
         ]
       }
     },
@@ -2429,8 +2429,8 @@
       "registry_name": "sapphireparticle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/particles/sapphireparticle.json",
-          "src/main/java/net/mcreator/kaczka/client/particle/SapphireparticleParticle.java"
+          "src/main/java/net/mcreator/kaczka/client/particle/SapphireparticleParticle.java",
+          "src/main/resources/assets/kaczka/particles/sapphireparticle.json"
         ]
       }
     },
@@ -2457,10 +2457,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/kaczka/models/block/sapphireblock.json",
+          "src/main/java/net/mcreator/kaczka/block/SapphireblockBlock.java",
           "src/main/resources/assets/kaczka/blockstates/sapphireblock.json",
-          "src/main/resources/assets/kaczka/models/item/sapphireblock.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/sapphireblock.json",
-          "src/main/java/net/mcreator/kaczka/block/SapphireblockBlock.java"
+          "src/main/resources/assets/kaczka/models/item/sapphireblock.json"
         ]
       }
     },
@@ -2535,17 +2535,17 @@
       "metadata": {
         "ep": true,
         "files": [
-          "src/main/java/net/mcreator/kaczka/world/dimension/DustierdiemsionDimension.java",
+          "src/main/java/net/mcreator/kaczka/world/teleporter/DustierdiemsionTeleporter.java",
           "src/main/resources/data/kaczka/dimension_type/dustierdiemsion.json",
-          "src/main/java/net/mcreator/kaczka/block/DustierdiemsionPortalBlock.java",
+          "src/main/resources/assets/kaczka/models/block/dustierdiemsion_portal_ew.json",
+          "src/main/java/net/mcreator/kaczka/world/dimension/DustierdiemsionDimension.java",
           "src/main/java/net/mcreator/kaczka/item/DustierdiemsionItem.java",
           "src/main/resources/data/kaczka/dimension/dustierdiemsion.json",
-          "src/main/resources/assets/kaczka/blockstates/dustierdiemsion_portal.json",
-          "src/main/resources/assets/kaczka/models/block/dustierdiemsion_portal_ew.json",
-          "src/main/java/net/mcreator/kaczka/world/teleporter/DustierdiemsionTeleporter.java",
+          "src/main/java/net/mcreator/kaczka/block/DustierdiemsionPortalBlock.java",
           "src/main/java/net/mcreator/kaczka/world/teleporter/DustierdiemsionPortalShape.java",
-          "src/main/resources/assets/kaczka/models/block/dustierdiemsion_portal_ns.json",
-          "src/main/resources/assets/kaczka/models/item/dustierdiemsion.json"
+          "src/main/resources/assets/kaczka/blockstates/dustierdiemsion_portal.json",
+          "src/main/resources/assets/kaczka/models/item/dustierdiemsion.json",
+          "src/main/resources/assets/kaczka/models/block/dustierdiemsion_portal_ns.json"
         ]
       }
     },
@@ -2558,11 +2558,11 @@
       "registry_name": "dustycryingobsidian",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/DustycryingobsidianBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/dustycryingobsidian.json",
           "src/main/resources/assets/kaczka/models/item/dustycryingobsidian.json",
-          "src/main/resources/assets/kaczka/models/block/dustycryingobsidian.json",
+          "src/main/java/net/mcreator/kaczka/block/DustycryingobsidianBlock.java",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustycryingobsidian.json",
-          "src/main/resources/assets/kaczka/blockstates/dustycryingobsidian.json"
+          "src/main/resources/assets/kaczka/models/block/dustycryingobsidian.json"
         ]
       }
     },
@@ -2575,11 +2575,11 @@
       "registry_name": "dustycryingglowstone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/DustycryingglowstoneBlock.java",
-          "src/main/resources/assets/kaczka/blockstates/dustycryingglowstone.json",
-          "src/main/resources/assets/kaczka/models/item/dustycryingglowstone.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustycryingglowstone.json",
-          "src/main/resources/assets/kaczka/models/block/dustycryingglowstone.json"
+          "src/main/resources/assets/kaczka/models/item/dustycryingglowstone.json",
+          "src/main/resources/assets/kaczka/models/block/dustycryingglowstone.json",
+          "src/main/resources/assets/kaczka/blockstates/dustycryingglowstone.json",
+          "src/main/java/net/mcreator/kaczka/block/DustycryingglowstoneBlock.java"
         ]
       }
     },
@@ -2623,11 +2623,11 @@
       "registry_name": "dustyportalspawn",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/loot_tables/blocks/dustyportalspawn.json",
-          "src/main/resources/assets/kaczka/blockstates/dustyportalspawn.json",
           "src/main/resources/assets/kaczka/models/item/dustyportalspawn.json",
-          "src/main/java/net/mcreator/kaczka/block/DustyportalspawnBlock.java",
-          "src/main/resources/assets/kaczka/models/block/dustyportalspawn.json"
+          "src/main/resources/assets/kaczka/models/block/dustyportalspawn.json",
+          "src/main/resources/assets/kaczka/blockstates/dustyportalspawn.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/dustyportalspawn.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyportalspawnBlock.java"
         ]
       }
     },
@@ -2640,11 +2640,11 @@
       "registry_name": "aetherportalspawn",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/blockstates/aetherportalspawn.json",
-          "src/main/resources/assets/kaczka/models/item/aetherportalspawn.json",
-          "src/main/resources/assets/kaczka/models/block/aetherportalspawn.json",
           "src/main/java/net/mcreator/kaczka/block/AetherportalspawnBlock.java",
-          "src/main/resources/data/kaczka/loot_tables/blocks/aetherportalspawn.json"
+          "src/main/resources/data/kaczka/loot_tables/blocks/aetherportalspawn.json",
+          "src/main/resources/assets/kaczka/models/block/aetherportalspawn.json",
+          "src/main/resources/assets/kaczka/blockstates/aetherportalspawn.json",
+          "src/main/resources/assets/kaczka/models/item/aetherportalspawn.json"
         ]
       }
     },
@@ -2719,11 +2719,11 @@
       "registry_name": "dustyaetherportalpawn",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/block/dustyaetherportalpawn.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/dustyaetherportalpawn.json",
-          "src/main/java/net/mcreator/kaczka/block/DustyaetherportalpawnBlock.java",
           "src/main/resources/assets/kaczka/blockstates/dustyaetherportalpawn.json",
-          "src/main/resources/assets/kaczka/models/item/dustyaetherportalpawn.json"
+          "src/main/resources/assets/kaczka/models/block/dustyaetherportalpawn.json",
+          "src/main/resources/assets/kaczka/models/item/dustyaetherportalpawn.json",
+          "src/main/java/net/mcreator/kaczka/block/DustyaetherportalpawnBlock.java"
         ]
       }
     },
@@ -2736,10 +2736,10 @@
       "registry_name": "glowingobsidian",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/block/GlowingobsidianBlock.java",
-          "src/main/resources/assets/kaczka/models/item/glowingobsidian.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/glowingobsidian.json",
           "src/main/resources/assets/kaczka/blockstates/glowingobsidian.json",
+          "src/main/java/net/mcreator/kaczka/block/GlowingobsidianBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/glowingobsidian.json",
+          "src/main/resources/assets/kaczka/models/item/glowingobsidian.json",
           "src/main/resources/assets/kaczka/models/block/glowingobsidian.json"
         ]
       }
@@ -2784,11 +2784,11 @@
       "registry_name": "netherreactor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/netherreactor.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/netherreactor.json",
-          "src/main/resources/assets/kaczka/blockstates/netherreactor.json",
           "src/main/java/net/mcreator/kaczka/block/NetherreactorBlock.java",
-          "src/main/resources/assets/kaczka/models/block/netherreactor.json"
+          "src/main/resources/assets/kaczka/models/block/netherreactor.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/netherreactor.json",
+          "src/main/resources/assets/kaczka/models/item/netherreactor.json",
+          "src/main/resources/assets/kaczka/blockstates/netherreactor.json"
         ]
       }
     },
@@ -2834,9 +2834,9 @@
         "files": [
           "src/main/resources/assets/kaczka/blockstates/netherreactorspawner.json",
           "src/main/resources/assets/kaczka/models/item/netherreactorspawner.json",
-          "src/main/resources/data/kaczka/loot_tables/blocks/netherreactorspawner.json",
           "src/main/resources/assets/kaczka/models/block/netherreactorspawner.json",
-          "src/main/java/net/mcreator/kaczka/block/NetherreactorspawnerBlock.java"
+          "src/main/java/net/mcreator/kaczka/block/NetherreactorspawnerBlock.java",
+          "src/main/resources/data/kaczka/loot_tables/blocks/netherreactorspawner.json"
         ]
       }
     },
@@ -2880,11 +2880,11 @@
       "registry_name": "enderiteore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/enderiteore.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/enderiteore.json",
-          "src/main/resources/assets/kaczka/blockstates/enderiteore.json",
+          "src/main/java/net/mcreator/kaczka/block/EnderiteoreBlock.java",
           "src/main/resources/assets/kaczka/models/block/enderiteore.json",
-          "src/main/java/net/mcreator/kaczka/block/EnderiteoreBlock.java"
+          "src/main/resources/assets/kaczka/models/item/enderiteore.json",
+          "src/main/resources/assets/kaczka/blockstates/enderiteore.json"
         ]
       }
     },
@@ -2897,8 +2897,8 @@
       "registry_name": "enderiteshard",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/item/EnderiteshardItem.java",
-          "src/main/resources/assets/kaczka/models/item/enderiteshard.json"
+          "src/main/resources/assets/kaczka/models/item/enderiteshard.json",
+          "src/main/java/net/mcreator/kaczka/item/EnderiteshardItem.java"
         ]
       }
     },
@@ -2937,8 +2937,8 @@
       "registry_name": "prelude",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/prelude.json",
-          "src/main/java/net/mcreator/kaczka/item/PreludeItem.java"
+          "src/main/java/net/mcreator/kaczka/item/PreludeItem.java",
+          "src/main/resources/assets/kaczka/models/item/prelude.json"
         ]
       }
     },
@@ -3070,11 +3070,11 @@
       "registry_name": "tsavorite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/blockstates/tsavorite.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/tsavorite.json",
           "src/main/resources/assets/kaczka/models/block/tsavorite.json",
           "src/main/resources/assets/kaczka/models/item/tsavorite.json",
-          "src/main/java/net/mcreator/kaczka/block/TsavoriteBlock.java"
+          "src/main/java/net/mcreator/kaczka/block/TsavoriteBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/tsavorite.json"
         ]
       }
     },
@@ -3087,8 +3087,8 @@
       "registry_name": "jadeitechisel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/item/JadeitechiselItem.java",
-          "src/main/resources/assets/kaczka/models/item/jadeitechisel.json"
+          "src/main/resources/assets/kaczka/models/item/jadeitechisel.json",
+          "src/main/java/net/mcreator/kaczka/item/JadeitechiselItem.java"
         ]
       }
     },
@@ -3150,10 +3150,10 @@
       "registry_name": "jadeitegemblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/jadeitegemblock.json",
           "src/main/resources/data/kaczka/loot_tables/blocks/jadeitegemblock.json",
-          "src/main/resources/assets/kaczka/models/block/jadeitegemblock.json",
           "src/main/resources/assets/kaczka/blockstates/jadeitegemblock.json",
+          "src/main/resources/assets/kaczka/models/item/jadeitegemblock.json",
+          "src/main/resources/assets/kaczka/models/block/jadeitegemblock.json",
           "src/main/java/net/mcreator/kaczka/block/JadeitegemblockBlock.java"
         ]
       }
@@ -3167,14 +3167,14 @@
       "registry_name": "jadeitegemore",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/forge/biome_modifier/jadeitegemore_biome_modifier.json",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/jadeitegemore.json",
-          "src/main/resources/data/kaczka/worldgen/configured_feature/jadeitegemore.json",
-          "src/main/java/net/mcreator/kaczka/block/JadeitegemoreBlock.java",
-          "src/main/resources/data/kaczka/loot_tables/blocks/jadeitegemore.json",
           "src/main/resources/assets/kaczka/models/block/jadeitegemore.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/jadeitegemore.json",
+          "src/main/resources/assets/kaczka/models/item/jadeitegemore.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/jadeitegemore.json",
+          "src/main/java/net/mcreator/kaczka/block/JadeitegemoreBlock.java",
           "src/main/resources/assets/kaczka/blockstates/jadeitegemore.json",
-          "src/main/resources/assets/kaczka/models/item/jadeitegemore.json"
+          "src/main/resources/data/kaczka/worldgen/configured_feature/jadeitegemore.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/jadeitegemore_biome_modifier.json"
         ]
       }
     },
@@ -3358,8 +3358,8 @@
           "src/main/java/net/mcreator/kaczka/fluid/types/NitrogenFluidType.java",
           "src/main/resources/assets/kaczka/models/item/nitrogen_bucket.json",
           "src/main/resources/assets/kaczka/models/block/nitrogen.json",
-          "src/main/resources/assets/kaczka/blockstates/nitrogen.json",
-          "src/main/java/net/mcreator/kaczka/fluid/NitrogenFluid.java"
+          "src/main/java/net/mcreator/kaczka/fluid/NitrogenFluid.java",
+          "src/main/resources/assets/kaczka/blockstates/nitrogen.json"
         ]
       }
     },
@@ -3412,8 +3412,8 @@
       "registry_name": "cesiumampule",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kaczka/models/item/cesiumampule.json",
-          "src/main/java/net/mcreator/kaczka/item/CesiumampuleItem.java"
+          "src/main/java/net/mcreator/kaczka/item/CesiumampuleItem.java",
+          "src/main/resources/assets/kaczka/models/item/cesiumampule.json"
         ]
       }
     },
@@ -3427,8 +3427,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/kaczka/forge/biome_modifier/dustytree_feature_biome_modifier.json",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/dustytree_feature.json",
-          "src/main/resources/data/kaczka/worldgen/configured_feature/dustytree_feature.json"
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustytree_feature.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustytree_feature.json"
         ],
         "has_nbt_structure": true
       }
@@ -3442,9 +3442,9 @@
       "registry_name": "dustyhouse_feature",
       "metadata": {
         "files": [
+          "src/main/resources/data/kaczka/forge/biome_modifier/dustyhouse_feature_biome_modifier.json",
           "src/main/resources/data/kaczka/worldgen/placed_feature/dustyhouse_feature.json",
-          "src/main/resources/data/kaczka/worldgen/configured_feature/dustyhouse_feature.json",
-          "src/main/resources/data/kaczka/forge/biome_modifier/dustyhouse_feature_biome_modifier.json"
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustyhouse_feature.json"
         ],
         "has_nbt_structure": true
       }
@@ -3474,9 +3474,9 @@
       "registry_name": "dustyruinednetherportal_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/worldgen/configured_feature/dustyruinednetherportal_feature.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustyruinednetherportal_feature.json",
           "src/main/resources/data/kaczka/forge/biome_modifier/dustyruinednetherportal_feature_biome_modifier.json",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/dustyruinednetherportal_feature.json"
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustyruinednetherportal_feature.json"
         ],
         "has_nbt_structure": true
       }
@@ -3490,8 +3490,8 @@
       "registry_name": "dustyaetherportal_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/worldgen/placed_feature/dustyaetherportal_feature.json",
           "src/main/resources/data/kaczka/forge/biome_modifier/dustyaetherportal_feature_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustyaetherportal_feature.json",
           "src/main/resources/data/kaczka/worldgen/configured_feature/dustyaetherportal_feature.json"
         ],
         "has_nbt_structure": true
@@ -3506,8 +3506,8 @@
       "registry_name": "netherreactorspawn_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/worldgen/placed_feature/netherreactorspawn_feature.json",
           "src/main/resources/data/kaczka/worldgen/configured_feature/netherreactorspawn_feature.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/netherreactorspawn_feature.json",
           "src/main/resources/data/kaczka/forge/biome_modifier/netherreactorspawn_feature_biome_modifier.json"
         ],
         "has_nbt_structure": true
@@ -3522,9 +3522,9 @@
       "registry_name": "nitrogen_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/kaczka/worldgen/placed_feature/nitrogen_feature.json",
           "src/main/resources/data/kaczka/forge/biome_modifier/nitrogen_feature_biome_modifier.json",
-          "src/main/resources/data/kaczka/worldgen/configured_feature/nitrogen_feature.json"
+          "src/main/resources/data/kaczka/worldgen/configured_feature/nitrogen_feature.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/nitrogen_feature.json"
         ]
       }
     },
@@ -3537,8 +3537,8 @@
       "registry_name": "heat_transmission",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/item/HeatTransmissionItem.java",
-          "src/main/resources/assets/kaczka/models/item/heat_transmission.json"
+          "src/main/resources/assets/kaczka/models/item/heat_transmission.json",
+          "src/main/java/net/mcreator/kaczka/item/HeatTransmissionItem.java"
         ]
       }
     },
@@ -3574,11 +3574,39 @@
       "registry_name": "prelude_man",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/kaczka/entity/PreludeManEntity.java",
-          "src/main/resources/assets/kaczka/models/item/prelude_man_spawn_egg.json",
-          "src/main/java/net/mcreator/kaczka/client/renderer/PreludeManRenderer.java",
           "src/main/java/net/mcreator/kaczka/entity/model/PreludeManModel.java",
+          "src/main/java/net/mcreator/kaczka/entity/PreludeManEntity.java",
+          "src/main/java/net/mcreator/kaczka/client/renderer/PreludeManRenderer.java",
+          "src/main/resources/assets/kaczka/models/item/prelude_man_spawn_egg.json",
           "src/main/resources/data/kaczka/forge/biome_modifier/prelude_man_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Hyper",
+      "type": "tab",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Cavestone",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavestone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/block/CavestoneBlock.java",
+          "src/main/resources/assets/kaczka/blockstates/cavestone.json",
+          "src/main/resources/assets/kaczka/models/item/cavestone.json",
+          "src/main/resources/data/kaczka/loot_tables/blocks/cavestone.json",
+          "src/main/resources/assets/kaczka/models/block/cavestone.json"
         ]
       }
     }
@@ -3678,12 +3706,12 @@
       "advancements.what.descr": "mine nether diamond ore",
       "block.kaczka.rubylantern": "Ruby lantern",
       "block.kaczka.rubyflower": "Ruby flower",
-      "block.kaczka.jadeitegemblock": "Jadeite gem block",
+      "block.kaczka.jadeitegemblock": "Jadeite Gem Block",
       "block.kaczka.jadeiteblock": " jadeite block",
       "block.kaczka.dustyglowstone": "Dusty glowstone",
       "block.kaczka.netherreactor": "Nether reactor core",
       "item_group.kaczka.structures": "Structures",
-      "item.kaczka.jadeitegem": "Jadeite gem",
+      "item.kaczka.jadeitegem": "Jadeite Gem",
       "item.kaczka.dust": "Dust",
       "biome.kaczka.sapphirecave": "sapphirecave",
       "block.kaczka.tsavorite": "Tsavorite",
@@ -3700,7 +3728,7 @@
       "item.kaczka.prelude_man_spawn_egg": "Prelude Man Spawn Egg",
       "item.kaczka.prelude": "Prelude",
       "block.kaczka.dustyplanks": "Dusty planks",
-      "item.kaczka.cesiumampule": "Cesium ampule",
+      "item.kaczka.cesiumampule": "Cesium Ampule",
       "block.kaczka.dustynetherrack": "Dusty netherrack",
       "block.kaczka.deep_shard_block": "Deep Shard Block",
       "block.kaczka.dustystone": "Dusty stone",
@@ -3710,6 +3738,7 @@
       "block.kaczka.goldenbricks": "Golden bricks",
       "item.kaczka.powertoken": "Powertoken",
       "block.kaczka.dustycraftingtable": "Dusty crafting table",
+      "item_group.kaczka.hyper": "Hyper",
       "advancements.backintime.title": "Back in time",
       "item.kaczka.rubyneckle_chestplate": "Rubyneckle Body",
       "item_group.kaczka.kaczka": "Kaczka",
@@ -3717,7 +3746,7 @@
       "block.kaczka.dustyleaves": "Dusty leaves",
       "block.kaczka.depth_extractor": "Depth Extractor",
       "block.kaczka.the": "The",
-      "block.kaczka.jadeitegemore": "jadeite gem ore",
+      "block.kaczka.jadeitegemore": "Jadeite Gem Ore",
       "fluid.kaczka.nitrogen": "Nitrogen",
       "block.kaczka.netherreactorspawner": "Nether reactor spawner",
       "biome.kaczka.dustyplains": "Dusty plains",
@@ -3736,7 +3765,7 @@
       "biome.kaczka.dustywastelands": "Dusty wastelands",
       "advancements.what.title": "What",
       "entity.kaczka.prelude_man": "Prelude Man",
-      "item.kaczka.enderiteshard": "Enderite shard",
+      "item.kaczka.enderiteshard": "Enderite Shard",
       "item.kaczka.dustierdiemsion": "dusty water bucket",
       "block.kaczka.goldenbrickstairs": "Golden brick stairs",
       "item.kaczka.deep_iron": "Deep Iron",
@@ -3754,7 +3783,7 @@
       "item.kaczka.deep_shard": "Deep Shard",
       "block.kaczka.dustyhousespawn": "Dusty house spawn",
       "block.kaczka.foravara_ore": "Foravara Ore",
-      "item.kaczka.jadeitechisel": "Jadeite chisel",
+      "item.kaczka.jadeitechisel": "Jadeite Chisel",
       "itemGroup.taboreswiraz": "Oreswiraz",
       "block.kaczka.goldenbrickslab": "Golden brick slab",
       "block.kaczka.dustysapling": "Dusty sapling",
@@ -3768,7 +3797,7 @@
       "block.kaczka.dustyobsidian": "Dusty obsidian",
       "gui.kaczka.depth_extractor_interface.button_extract": "Extract -\u003e",
       "block.kaczka.rubyprismarinestairs": "Ruby prismarine stairs",
-      "block.kaczka.enderiteore": "Enderite ore",
+      "block.kaczka.enderiteore": "Enderite Ore",
       "block.kaczka.aetherportalspawn": "Aether portal spawn",
       "item_group.kaczka.farmazony": "Farmazony",
       "block.kaczka.dustygrass": "Dusty grass block",
@@ -3777,6 +3806,7 @@
       "item.kaczka.gildedclaypiece": " gilded clay piece",
       "block.kaczka.dustymoss": "Dusty moss",
       "item.kaczka.heat_transmission": "Heat Transmission",
+      "block.kaczka.cavestone": "Cavestone",
       "block.kaczka.netherdiamondore": "Netherdiamondore",
       "item.kaczka.nitrogen_bucket": "Nitrogen Bucket",
       "block.kaczka.dustycryingglowstone": "Dusty crying glowstone",
