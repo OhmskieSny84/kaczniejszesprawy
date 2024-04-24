@@ -3609,6 +3609,54 @@
           "src/main/resources/assets/kaczka/models/item/cavestone.json"
         ]
       }
+    },
+    {
+      "name": "TerrainStatementPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terrain_statement_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/TerrainStatementPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TerrainStatement",
+      "type": "item",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terrain_statement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/item/TerrainStatementItem.java",
+          "src/main/resources/assets/kaczka/models/item/terrain_statement_1.json",
+          "src/main/resources/assets/kaczka/models/item/terrain_statement_0.json",
+          "src/main/resources/assets/kaczka/models/item/terrain_statement.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3698,20 +3746,20 @@
       "advancements.aslongasyouhaveenoughrubies.descr": "find ruby ",
       "block.kaczka.rubyprismarine": "Ruby prismarine",
       "item.kaczka.dustydimension": "obsidian and steel",
-      "itemGroup.tabfarmazony": "Farmazony",
       "block.kaczka.dustydirt": "Dusty dirt",
+      "itemGroup.tabfarmazony": "Farmazony",
       "block.kaczka.dustyaetherportalpawn": "Dustyaetherportalpawn",
       "item_group.kaczka.oreswiraz": "Oreswiraz",
       "item.kaczka.ruby": "Ruby",
       "advancements.what.descr": "mine nether diamond ore",
       "block.kaczka.rubylantern": "Ruby lantern",
       "block.kaczka.rubyflower": "Ruby flower",
-      "block.kaczka.jadeitegemblock": "Jadeite gem block",
+      "block.kaczka.jadeitegemblock": "Jadeite Gem Block",
       "block.kaczka.jadeiteblock": " jadeite block",
       "block.kaczka.dustyglowstone": "Dusty glowstone",
-      "item_group.kaczka.structures": "Structures",
       "block.kaczka.netherreactor": "Nether reactor core",
-      "item.kaczka.jadeitegem": "Jadeite gem",
+      "item_group.kaczka.structures": "Structures",
+      "item.kaczka.jadeitegem": "Jadeite Gem",
       "item.kaczka.dust": "Dust",
       "biome.kaczka.sapphirecave": "sapphirecave",
       "block.kaczka.tsavorite": "Tsavorite",
@@ -3728,7 +3776,7 @@
       "item.kaczka.prelude_man_spawn_egg": "Prelude Man Spawn Egg",
       "item.kaczka.prelude": "Prelude",
       "block.kaczka.dustyplanks": "Dusty planks",
-      "item.kaczka.cesiumampule": "Cesium ampule",
+      "item.kaczka.cesiumampule": "Cesium Ampule",
       "block.kaczka.dustynetherrack": "Dusty netherrack",
       "block.kaczka.deep_shard_block": "Deep Shard Block",
       "block.kaczka.dustystone": "Dusty stone",
@@ -3738,6 +3786,7 @@
       "block.kaczka.goldenbricks": "Golden bricks",
       "item.kaczka.powertoken": "Powertoken",
       "block.kaczka.dustycraftingtable": "Dusty crafting table",
+      "item_group.kaczka.hyper": "Hyper",
       "advancements.backintime.title": "Back in time",
       "item.kaczka.rubyneckle_chestplate": "Rubyneckle Body",
       "item_group.kaczka.kaczka": "Kaczka",
@@ -3745,7 +3794,7 @@
       "block.kaczka.dustyleaves": "Dusty leaves",
       "block.kaczka.depth_extractor": "Depth Extractor",
       "block.kaczka.the": "The",
-      "block.kaczka.jadeitegemore": "jadeite gem ore",
+      "block.kaczka.jadeitegemore": "Jadeite Gem Ore",
       "fluid.kaczka.nitrogen": "Nitrogen",
       "block.kaczka.netherreactorspawner": "Nether reactor spawner",
       "biome.kaczka.dustyplains": "Dusty plains",
@@ -3754,6 +3803,7 @@
       "advancements.backintime.descr": "get back in time",
       "item.kaczka.void_messenger": "Void Messenger",
       "biome.kaczka.dustywoods": "Dustywoods",
+      "item.kaczka.terrain_statement": "Terrain Statement",
       "block.kaczka.sapphireore": "Sapphire ore",
       "itemGroup.tabkaczka": "Kaczka",
       "advancements.tearsintherain.title": "Tears in the rain",
@@ -3764,7 +3814,7 @@
       "biome.kaczka.dustywastelands": "Dusty wastelands",
       "advancements.what.title": "What",
       "entity.kaczka.prelude_man": "Prelude Man",
-      "item.kaczka.enderiteshard": "Enderite shard",
+      "item.kaczka.enderiteshard": "Enderite Shard",
       "item.kaczka.dustierdiemsion": "dusty water bucket",
       "block.kaczka.goldenbrickstairs": "Golden brick stairs",
       "item.kaczka.deep_iron": "Deep Iron",
@@ -3782,7 +3832,7 @@
       "item.kaczka.deep_shard": "Deep Shard",
       "block.kaczka.dustyhousespawn": "Dusty house spawn",
       "block.kaczka.foravara_ore": "Foravara Ore",
-      "item.kaczka.jadeitechisel": "Jadeite chisel",
+      "item.kaczka.jadeitechisel": "Jadeite Chisel",
       "itemGroup.taboreswiraz": "Oreswiraz",
       "block.kaczka.goldenbrickslab": "Golden brick slab",
       "block.kaczka.dustysapling": "Dusty sapling",
@@ -3796,7 +3846,7 @@
       "block.kaczka.dustyobsidian": "Dusty obsidian",
       "gui.kaczka.depth_extractor_interface.button_extract": "Extract -\u003e",
       "block.kaczka.rubyprismarinestairs": "Ruby prismarine stairs",
-      "block.kaczka.enderiteore": "Enderite ore",
+      "block.kaczka.enderiteore": "Enderite Ore",
       "block.kaczka.aetherportalspawn": "Aether portal spawn",
       "item_group.kaczka.farmazony": "Farmazony",
       "block.kaczka.dustygrass": "Dusty grass block",
@@ -3805,6 +3855,7 @@
       "item.kaczka.gildedclaypiece": " gilded clay piece",
       "block.kaczka.dustymoss": "Dusty moss",
       "item.kaczka.heat_transmission": "Heat Transmission",
+      "block.kaczka.cavestone": "Cavestone",
       "block.kaczka.netherdiamondore": "Netherdiamondore",
       "item.kaczka.nitrogen_bucket": "Nitrogen Bucket",
       "block.kaczka.dustycryingglowstone": "Dusty crying glowstone",

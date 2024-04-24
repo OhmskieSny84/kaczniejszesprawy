@@ -7,14 +7,22 @@ package net.mcreator.kaczka.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.common.ForgeSpawnEggItem;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.item.ItemProperties;
 
+import net.mcreator.kaczka.procedures.TerrainStatementPropertyValueProviderProcedure;
 import net.mcreator.kaczka.item.VoidMessengerItem;
 import net.mcreator.kaczka.item.ToretzanItem;
+import net.mcreator.kaczka.item.TerrainStatementItem;
 import net.mcreator.kaczka.item.SapphireItem;
 import net.mcreator.kaczka.item.RubyneckleItem;
 import net.mcreator.kaczka.item.RubyItem;
@@ -39,6 +47,7 @@ import net.mcreator.kaczka.item.DeepIronBladeItem;
 import net.mcreator.kaczka.item.CesiumampuleItem;
 import net.mcreator.kaczka.KaczkaMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class KaczkaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, KaczkaMod.MODID);
 	public static final RegistryObject<Item> GILDEDCLAY = block(KaczkaModBlocks.GILDEDCLAY);
@@ -122,10 +131,19 @@ public class KaczkaModItems {
 	public static final RegistryObject<Item> HEAT_TRANSMISSION = REGISTRY.register("heat_transmission", () -> new HeatTransmissionItem());
 	public static final RegistryObject<Item> PRELUDE_MAN_SPAWN_EGG = REGISTRY.register("prelude_man_spawn_egg", () -> new ForgeSpawnEggItem(KaczkaModEntities.PRELUDE_MAN, -16777012, -1, new Item.Properties()));
 	public static final RegistryObject<Item> CAVESTONE = block(KaczkaModBlocks.CAVESTONE);
+	public static final RegistryObject<Item> TERRAIN_STATEMENT = REGISTRY.register("terrain_statement", () -> new TerrainStatementItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	@SubscribeEvent
+	public static void clientLoad(FMLClientSetupEvent event) {
+		event.enqueueWork(() -> {
+			ItemProperties.register(TERRAIN_STATEMENT.get(), new ResourceLocation("kaczka:terrain_statement_charge"), (itemStackToRender, clientWorld, entity, itemEntityId) -> (float) TerrainStatementPropertyValueProviderProcedure
+					.execute(entity != null ? entity.level() : clientWorld, entity != null ? entity.getX() : 0, entity != null ? entity.getY() : 0, entity != null ? entity.getZ() : 0));
+		});
 	}
 }

@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kaczka:item/terrainstatement"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "kaczka:terrain_statement_charge": 2
+      },
+      "model": "kaczka:item/terrain_statement_0"
+    },
+    {
+      "predicate": {
+        "kaczka:terrain_statement_charge": 0
+      },
+      "model": "kaczka:item/terrain_statement_1"
+    }
+  ]
+}

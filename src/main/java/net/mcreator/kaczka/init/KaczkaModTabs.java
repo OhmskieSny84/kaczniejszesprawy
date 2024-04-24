@@ -58,6 +58,7 @@ public class KaczkaModTabs {
 				tabData.accept(KaczkaModItems.PRELUDE.get());
 				tabData.accept(KaczkaModItems.PRELUDE_BLUE.get());
 				tabData.accept(KaczkaModItems.HEAT_TRANSMISSION.get());
+				tabData.accept(KaczkaModItems.TERRAIN_STATEMENT.get());
 			})
 
 					.build());
