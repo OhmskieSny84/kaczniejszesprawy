@@ -132,6 +132,7 @@ public class KaczkaModItems {
 	public static final RegistryObject<Item> PRELUDE_MAN_SPAWN_EGG = REGISTRY.register("prelude_man_spawn_egg", () -> new ForgeSpawnEggItem(KaczkaModEntities.PRELUDE_MAN, -16777012, -1, new Item.Properties()));
 	public static final RegistryObject<Item> CAVESTONE = block(KaczkaModBlocks.CAVESTONE);
 	public static final RegistryObject<Item> TERRAIN_STATEMENT = REGISTRY.register("terrain_statement", () -> new TerrainStatementItem());
+	public static final RegistryObject<Item> INSTASPAWNTREE = block(KaczkaModBlocks.INSTASPAWNTREE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

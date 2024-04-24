@@ -51,6 +51,10 @@ public class KaczkaModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters().values());
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(0.0f),
+							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "hypercave")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(1.0f),
+							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "hypercave")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.12f, 0.12f), Climate.Parameter.span(-0.12f, 0.12f), Climate.Parameter.span(0.39f, 0.63f), Climate.Parameter.span(0.68f, 0.92f),
 							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-0.7337773714f, -0.4937773714f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "rubycave")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.12f, 0.12f), Climate.Parameter.span(-0.12f, 0.12f), Climate.Parameter.span(0.39f, 0.63f), Climate.Parameter.span(0.68f, 0.92f),
@@ -59,6 +63,8 @@ public class KaczkaModBiomes {
 							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(0.4240414597f, 0.6640414597f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "emeraldcave")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.12f, 0.12f), Climate.Parameter.span(-0.12f, 0.12f), Climate.Parameter.span(0.39f, 0.63f), Climate.Parameter.span(0.68f, 0.92f),
 							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-0.5426469427f, -0.3026469427f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "jadeitecave")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
+							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "hypercave")))));
 					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
 					chunkGenerator.featuresPerStep = Suppliers
 							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()), biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
@@ -73,6 +79,9 @@ public class KaczkaModBiomes {
 						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "sapphirecave")), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState()));
 						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "emeraldcave")), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState()));
 						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "jadeitecave")), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState()));
+						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "hypercave")), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState()));
+						surfaceRules.add(1,
+								preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("kaczka", "hypercave")), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
 								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
@@ -81,6 +90,15 @@ public class KaczkaModBiomes {
 				}
 			}
 		}
+	}
+
+	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
+		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+				SurfaceRules.ifTrue(SurfaceRules.abovePreliminarySurface(),
+						SurfaceRules.sequence(
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+										SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock)))));
 	}
 
 	private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {

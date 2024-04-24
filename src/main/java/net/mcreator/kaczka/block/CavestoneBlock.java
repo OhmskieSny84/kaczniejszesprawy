@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class CavestoneBlock extends Block {
 	public CavestoneBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 6f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(2f, 6f));
 	}
 
 	@Override

@@ -31,6 +31,7 @@ import net.mcreator.kaczka.block.JadeitegraveloreBlock;
 import net.mcreator.kaczka.block.JadeitegemoreBlock;
 import net.mcreator.kaczka.block.JadeitegemblockBlock;
 import net.mcreator.kaczka.block.JadeiteblockBlock;
+import net.mcreator.kaczka.block.InstaspawntreeBlock;
 import net.mcreator.kaczka.block.GoldenbrickstairsBlock;
 import net.mcreator.kaczka.block.GoldenbrickslabBlock;
 import net.mcreator.kaczka.block.GoldenbricksBlock;
@@ -132,6 +133,7 @@ public class KaczkaModBlocks {
 	public static final RegistryObject<Block> JADEITEGEMORE = REGISTRY.register("jadeitegemore", () -> new JadeitegemoreBlock());
 	public static final RegistryObject<Block> NITROGEN = REGISTRY.register("nitrogen", () -> new NitrogenBlock());
 	public static final RegistryObject<Block> CAVESTONE = REGISTRY.register("cavestone", () -> new CavestoneBlock());
+	public static final RegistryObject<Block> INSTASPAWNTREE = REGISTRY.register("instaspawntree", () -> new InstaspawntreeBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -74,6 +74,7 @@ public class KaczkaModTabs {
 				tabData.accept(KaczkaModBlocks.DUSTYPORTALSPAWN.get().asItem());
 				tabData.accept(KaczkaModBlocks.AETHERPORTALSPAWN.get().asItem());
 				tabData.accept(KaczkaModBlocks.NETHERREACTORSPAWNER.get().asItem());
+				tabData.accept(KaczkaModBlocks.INSTASPAWNTREE.get().asItem());
 			})
 
 					.build());

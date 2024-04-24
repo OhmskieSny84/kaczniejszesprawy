@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": " gilded clay piece",
+    "name": "Gilded Clay Piece",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Farmazony"
@@ -29,11 +29,17 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
+    "projectile": {
+      "value": "CUSTOM:FireworksProjectile"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#is_overworld",
+  "biomes": "ice_spikes",
   "features": "kaczka:nitrogen_feature",
   "step": "lakes"
 }

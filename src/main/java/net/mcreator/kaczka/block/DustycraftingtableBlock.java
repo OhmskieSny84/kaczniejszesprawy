@@ -52,7 +52,7 @@ public class DustycraftingtableBlock extends Block {
 			NetworkHooks.openScreen(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Dusty crafting table");
+					return Component.literal("Dusty Crafting Table");
 				}
 
 				@Override

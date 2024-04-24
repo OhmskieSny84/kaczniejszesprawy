@@ -18,7 +18,7 @@
     },
     "armorTextureFile": "ruby_neckle_",
     "helmetName": "Rubyneckle Helmet",
-    "bodyName": "Rubyneckle Body",
+    "bodyName": "Ruby Neckle",
     "leggingsName": "Rubyneckle Leggings",
     "bootsName": "Rubyneckle Boots",
     "helmetSpecialInformation": {
@@ -63,6 +63,18 @@
     "bodyImmuneToFire": true,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 25,
     "damageValueHelmet": 2,
     "damageValueBody": 3,

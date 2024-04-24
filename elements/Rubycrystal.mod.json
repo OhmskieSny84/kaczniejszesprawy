@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Ruby crystal",
+    "name": "Ruby Crystal",
     "specialInformation": {
       "fixedValue": []
     },
@@ -120,7 +120,11 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": false,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Rubycave"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE#0"

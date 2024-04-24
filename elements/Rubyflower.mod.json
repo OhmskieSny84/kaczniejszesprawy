@@ -28,7 +28,7 @@
         "subtract": false
       }
     ],
-    "name": "Ruby flower",
+    "name": "Ruby Flower",
     "specialInformation": {
       "fixedValue": []
     },
@@ -89,6 +89,6 @@
     ],
     "generationType": "Flower",
     "patchSize": 32,
-    "generateAtAnyHeight": false
+    "generateAtAnyHeight": true
   }
 }

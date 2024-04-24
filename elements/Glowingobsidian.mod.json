@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Glowing obsidian",
+    "name": "Glowing Obsidian",
     "specialInformation": {
       "fixedValue": []
     },
@@ -119,12 +119,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockAdded": {
-      "name": "NetherreactorBlockDestroyedByPlayer"
-    },
-    "onNeighbourBlockChanges": {
-      "name": "NetherreactorBlockDestroyedByPlayer"
-    },
     "onTickUpdate": {
       "name": "GlowingobsidianUpdateTick"
     },

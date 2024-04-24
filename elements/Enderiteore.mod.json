@@ -48,7 +48,7 @@
     "customDrop": {
       "value": "CUSTOM:Enderiteshard"
     },
-    "dropAmount": 2,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
@@ -119,6 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "Enderitedrop"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -2,12 +2,12 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "jadeite_gravel",
-    "textureTop": "jadeite_gravel",
-    "textureLeft": "jadeite_gravel",
-    "textureFront": "jadeite_gravel",
-    "textureRight": "jadeite_gravel",
-    "textureBack": "jadeite_gravel",
+    "texture": "placeholder",
+    "textureTop": "placeholder",
+    "textureLeft": "dusty_log",
+    "textureFront": "placeholder",
+    "textureRight": "dusty_log",
+    "textureBack": "placeholder",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,16 +33,16 @@
         "subtract": false
       }
     ],
-    "name": "Jadeite Gravel Ore",
+    "name": "Insta spawn tree",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.6,
-    "resistance": 1.0,
-    "hasGravity": true,
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Farmazony"
+      "value": "CUSTOM:Structures"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "EARTH"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -100,7 +100,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -119,24 +119,20 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "JadeitegraveloreUpdateTick"
+    "onRightClicked": {
+      "name": "InstaspawntreeOnBlockRightClicked"
     },
-    "generateFeature": true,
-    "restrictionBiomes": [
-      {
-        "value": "#is_overworld"
-      }
-    ],
+    "generateFeature": false,
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.GRAVEL"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": -64,
-    "maxGenerateHeight": 1
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }
