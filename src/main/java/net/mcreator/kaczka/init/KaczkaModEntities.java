@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.kaczka.entity.TerrainMessageEntity;
 import net.mcreator.kaczka.entity.PreludeManEntity;
 import net.mcreator.kaczka.entity.FireworksProjectileEntity;
 import net.mcreator.kaczka.entity.CesiumampuleProjectileEntity;
@@ -32,6 +33,8 @@ public class KaczkaModEntities {
 			EntityType.Builder.<PreludeManEntity>of(PreludeManEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PreludeManEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<TerrainMessageEntity>> TERRAIN_MESSAGE = register("terrain_message",
+			EntityType.Builder.<TerrainMessageEntity>of(TerrainMessageEntity::new, MobCategory.MISC).setCustomClientFactory(TerrainMessageEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

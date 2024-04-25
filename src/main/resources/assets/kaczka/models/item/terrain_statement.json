@@ -6,13 +6,13 @@
   "overrides": [
     {
       "predicate": {
-        "kaczka:terrain_statement_charge": 2
+        "kaczka:terrain_statement_charge": 0
       },
       "model": "kaczka:item/terrain_statement_0"
     },
     {
       "predicate": {
-        "kaczka:terrain_statement_charge": 0
+        "kaczka:terrain_statement_charge": 3
       },
       "model": "kaczka:item/terrain_statement_1"
     }

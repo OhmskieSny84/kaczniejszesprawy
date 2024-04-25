@@ -52,13 +52,18 @@ public class KaczkaModTabs {
 			})
 
 					.build());
+	public static final RegistryObject<CreativeModeTab> ADVANCED_ITEMS = REGISTRY.register("advanced_items",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.kaczka.advanced_items")).icon(() -> new ItemStack(KaczkaModItems.POWERTOKEN.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(KaczkaModItems.PRELUDE.get());
+				tabData.accept(KaczkaModItems.PRELUDE_BLUE.get());
+				tabData.accept(KaczkaModItems.VOID_MESSENGER.get());
+				tabData.accept(KaczkaModItems.POWERTOKEN.get());
+				tabData.accept(KaczkaModItems.HEAT_TRANSMISSION.get());
+				tabData.accept(KaczkaModItems.TERRAIN_STATEMENT.get());
+			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> KACZKA = REGISTRY.register("kaczka",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.kaczka.kaczka")).icon(() -> new ItemStack(KaczkaModBlocks.GILDEDCLAY.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(KaczkaModBlocks.DUSTYAETHERPORTALPAWN.get().asItem());
-				tabData.accept(KaczkaModItems.PRELUDE.get());
-				tabData.accept(KaczkaModItems.PRELUDE_BLUE.get());
-				tabData.accept(KaczkaModItems.HEAT_TRANSMISSION.get());
-				tabData.accept(KaczkaModItems.TERRAIN_STATEMENT.get());
 			})
 
 					.build());
@@ -100,8 +105,6 @@ public class KaczkaModTabs {
 				tabData.accept(KaczkaModItems.TORETZAN.get());
 				tabData.accept(KaczkaModBlocks.FORAVARA_ORE.get().asItem());
 				tabData.accept(KaczkaModItems.FORAVARA.get());
-				tabData.accept(KaczkaModItems.VOID_MESSENGER.get());
-				tabData.accept(KaczkaModItems.POWERTOKEN.get());
 			})
 
 					.build());

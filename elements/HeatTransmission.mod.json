@@ -10,7 +10,7 @@
     "name": "Heat Transmission",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:AdvancedItems"
     },
     "stackSize": 16,
     "enchantability": 0,

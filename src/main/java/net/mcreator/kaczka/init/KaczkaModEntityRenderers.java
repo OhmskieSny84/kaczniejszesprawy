@@ -20,5 +20,6 @@ public class KaczkaModEntityRenderers {
 		event.registerEntityRenderer(KaczkaModEntities.FIREWORKS_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(KaczkaModEntities.CESIUMAMPULE_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(KaczkaModEntities.PRELUDE_MAN.get(), PreludeManRenderer::new);
+		event.registerEntityRenderer(KaczkaModEntities.TERRAIN_MESSAGE.get(), ThrownItemRenderer::new);
 	}
 }

@@ -10,7 +10,7 @@
     "name": "Prelude",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:AdvancedItems"
     },
     "stackSize": 1,
     "enchantability": 0,

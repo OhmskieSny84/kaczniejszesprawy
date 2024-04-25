@@ -10,7 +10,7 @@
     "name": "Void Messenger",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Oreswiraz"
+      "value": "CUSTOM:AdvancedItems"
     },
     "stackSize": 16,
     "enchantability": 0,

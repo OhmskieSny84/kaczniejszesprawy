@@ -13,22 +13,6 @@
     "states": [
       {
         "renderType": 0,
-        "texture": "terrainstatement",
-        "customModelName": "Normal",
-        "stateMap": [
-          {
-            "property": {
-              "min": -1.7976931348623157E308,
-              "max": 1.7976931348623157E308,
-              "name": "CUSTOM:charge",
-              "type": "number"
-            },
-            "value": 2.0
-          }
-        ]
-      },
-      {
-        "renderType": 0,
         "texture": "terrainempty",
         "customModelName": "Normal",
         "stateMap": [
@@ -42,12 +26,28 @@
             "value": 0.0
           }
         ]
+      },
+      {
+        "renderType": 0,
+        "texture": "terrainstatement",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:charge",
+              "type": "number"
+            },
+            "value": 3.0
+          }
+        ]
       }
     ],
     "name": "Terrain Statement",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:AdvancedItems"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -72,10 +72,13 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "TerrainStatementRightclicked"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
-      "value": "CUSTOM:FireworksProjectile"
+      "value": "CUSTOM:TerrainMessage"
     },
     "isFood": false,
     "nutritionalValue": 4,

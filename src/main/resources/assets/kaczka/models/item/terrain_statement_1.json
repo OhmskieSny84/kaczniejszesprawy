@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kaczka:item/terrainempty"
+    "layer0": "kaczka:item/terrainstatement"
   }
 }

@@ -144,7 +144,7 @@ public class KaczkaModItems {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			ItemProperties.register(TERRAIN_STATEMENT.get(), new ResourceLocation("kaczka:terrain_statement_charge"), (itemStackToRender, clientWorld, entity, itemEntityId) -> (float) TerrainStatementPropertyValueProviderProcedure
-					.execute(entity != null ? entity.level() : clientWorld, entity != null ? entity.getX() : 0, entity != null ? entity.getY() : 0, entity != null ? entity.getZ() : 0));
+					.execute(entity != null ? entity.level() : clientWorld, entity != null ? entity.getX() : 0, entity != null ? entity.getY() : 0, entity != null ? entity.getZ() : 0, itemStackToRender));
 		});
 	}
 }
