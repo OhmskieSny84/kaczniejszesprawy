@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "ice_spikes",
+  "biomes": "kaczka:hypercave",
   "features": "kaczka:nitrogen_feature",
   "step": "lakes"
 }

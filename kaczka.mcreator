@@ -3431,8 +3431,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/kaczka/forge/biome_modifier/dustytree_feature_biome_modifier.json",
-          "src/main/resources/data/kaczka/worldgen/placed_feature/dustytree_feature.json",
-          "src/main/resources/data/kaczka/worldgen/configured_feature/dustytree_feature.json"
+          "src/main/resources/data/kaczka/worldgen/configured_feature/dustytree_feature.json",
+          "src/main/resources/data/kaczka/worldgen/placed_feature/dustytree_feature.json"
         ],
         "has_nbt_structure": true
       }
@@ -3755,6 +3755,21 @@
       "metadata": {
         "files": [
           "src/main/resources/data/kaczka/worldgen/biome/hypercave.json"
+        ]
+      }
+    },
+    {
+      "name": "Endgeode",
+      "type": "feature",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endgeode",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kaczka/worldgen/placed_feature/endgeode.json",
+          "src/main/resources/data/kaczka/forge/biome_modifier/endgeode_biome_modifier.json",
+          "src/main/resources/data/kaczka/worldgen/configured_feature/endgeode.json"
         ]
       }
     }

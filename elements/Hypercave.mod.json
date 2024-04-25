@@ -4,10 +4,10 @@
   "definition": {
     "name": "Hypercave",
     "groundBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:Cavestone"
     },
     "undergroundBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:Cavestone"
     },
     "underwaterBlock": {
       "value": ""
@@ -52,7 +52,7 @@
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
-    "spawnBiome": true,
+    "spawnBiome": false,
     "spawnInCaves": true,
     "spawnBiomeNether": false,
     "genTemperature": {
@@ -94,7 +94,8 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "FrozenTopLayer",
+      "Fossils"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
