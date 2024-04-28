@@ -22,6 +22,7 @@ import net.minecraft.client.renderer.item.ItemProperties;
 import net.mcreator.kaczka.procedures.TerrainStatementPropertyValueProviderProcedure;
 import net.mcreator.kaczka.item.VoidMessengerItem;
 import net.mcreator.kaczka.item.ToretzanItem;
+import net.mcreator.kaczka.item.TheSunItem;
 import net.mcreator.kaczka.item.TerrainStatementItem;
 import net.mcreator.kaczka.item.SapphireItem;
 import net.mcreator.kaczka.item.RubyneckleItem;
@@ -133,6 +134,7 @@ public class KaczkaModItems {
 	public static final RegistryObject<Item> CAVESTONE = block(KaczkaModBlocks.CAVESTONE);
 	public static final RegistryObject<Item> TERRAIN_STATEMENT = REGISTRY.register("terrain_statement", () -> new TerrainStatementItem());
 	public static final RegistryObject<Item> INSTASPAWNTREE = block(KaczkaModBlocks.INSTASPAWNTREE);
+	public static final RegistryObject<Item> THE_SUN = REGISTRY.register("the_sun", () -> new TheSunItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

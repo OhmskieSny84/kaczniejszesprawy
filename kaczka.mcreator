@@ -3871,6 +3871,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -3885,6 +3901,77 @@
       "registry_name": "advanced_items",
       "metadata": {
         "files": []
+      },
+      "path": "~/Advanced Items"
+    },
+    {
+      "name": "TheSunBurnsUser",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sun_burns_user",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/TheSunBurnsUserProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Items"
+    },
+    {
+      "name": "TheSunBurnsEnemy",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sun_burns_enemy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kaczka/procedures/TheSunBurnsEnemyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Advanced Items"
+    },
+    {
+      "name": "TheSun",
+      "type": "item",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kaczka/models/item/the_sun.json",
+          "src/main/java/net/mcreator/kaczka/item/TheSunItem.java"
+        ]
       },
       "path": "~/Advanced Items"
     }
@@ -3993,6 +4080,7 @@
       "item.kaczka.jadeitegem": "Jadeite Gem",
       "item.kaczka.dust": "Dust",
       "biome.kaczka.sapphirecave": "sapphirecave",
+      "item.kaczka.the_sun": "The Sun",
       "block.kaczka.tsavorite": "Tsavorite",
       "item.kaczka.deep_iron_blade": "Deep Iron Blade",
       "block.kaczka.rubyblock": " Ruby Block",

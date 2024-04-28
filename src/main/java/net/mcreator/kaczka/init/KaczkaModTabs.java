@@ -60,6 +60,7 @@ public class KaczkaModTabs {
 				tabData.accept(KaczkaModItems.POWERTOKEN.get());
 				tabData.accept(KaczkaModItems.HEAT_TRANSMISSION.get());
 				tabData.accept(KaczkaModItems.TERRAIN_STATEMENT.get());
+				tabData.accept(KaczkaModItems.THE_SUN.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> KACZKA = REGISTRY.register("kaczka",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.kaczka.kaczka")).icon(() -> new ItemStack(KaczkaModBlocks.GILDEDCLAY.get())).displayItems((parameters, tabData) -> {

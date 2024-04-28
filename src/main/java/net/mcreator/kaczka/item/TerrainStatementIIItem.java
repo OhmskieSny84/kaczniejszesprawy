@@ -9,17 +9,17 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
-import net.mcreator.kaczka.procedures.TerrainStatementRightclickedProcedure;
+import net.mcreator.kaczka.procedures.TerrainStatementIIRightclickedProcedure;
 
-public class TerrainStatementItem extends Item {
-	public TerrainStatementItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+public class TerrainStatementIIItem extends Item {
+	public TerrainStatementIIItem() {
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		TerrainStatementRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+		TerrainStatementIIRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		return ar;
 	}
 }

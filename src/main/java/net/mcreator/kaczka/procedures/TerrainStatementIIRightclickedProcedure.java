@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.kaczka.init.KaczkaModEntities;
 import net.mcreator.kaczka.entity.TerrainMessageEntity;
 
-public class TerrainStatementRightclickedProcedure {
+public class TerrainStatementIIRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
